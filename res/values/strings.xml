@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vidya School</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_play">Play All</string>
+    <string name="action_stop">Stop</string>
+    <string name="main_menu_item_suktam">Suktams</string>
+    <string name="neela_suktam_title">Neela Suktam</string>
+    <string name="purusha_suktam_title">Purusha Suktam</string>
+    <string name="narayana_suktam_title">Narayana Suktam</string>
+    <string name="LSN_title">Sri Lalita Sahasranaama Stotram</string>
+    <string name="LSN_title_short">Lalita Sahasranaama</string>
+    <string name="sri_suktam_title">Sri Suktam</string>
+    <string name="medha_suktam_title">Medha Suktam</string>
+    <string name="durga_suktam_title">Durga Suktam</string>
+
+    <!-- Neela Suktam Lyrics -->
+    <string-array name="neela_suktam_lines_all">
+        <item>om nīḻām devigum śaraṇamaham prapatye sutaritarasate 
+namaha</item>
+        <item>gruṇāhī</item>
+        <item>dhruthavathī savitharādhipathyaih payasvathī ranthirāśāno asthu</item>
+        <item>dhruvā dhiśām viṣṇupathnyaghorāsyeśānā sahāsoyā manothā</item>
+        <item>bŕuḥaspathirṁāthariśvotha vāyussanḍhuvānā vāthā abhi no gŕuṇanthu</item>
+        <item>viṣtaṁbho dhivo ḍharuṇah pŕuṭhivyā asyeśānā jagatho viṣṇupathnī</item>
+        <item>mahadevyai ca vidmahe visnupatni ca dhimahi tanno nīḻā pracodayat</item>
+    </string-array>
+    <string-array name="medha_suktam_lines_all">
+        <item>oṃ medhādevī juṣamāṇā na āgādviśvācī bhadrā sumanasya mānā</item>
+        <item>tvayā juṣṭā nudamānā duruktān bṛhadvadema vidathe suvīrāḥ</item>
+        <item>tvayā juṣṭa ṛṣirbhavati devi tvayā brahmā gataśrīruta tvayā”</item>
+        <item>tvayā juṣṭaścitraṃ vindate vasu sā no juṣasva draviṇo na medhe</item>
+        <item>medhāṃ ma indro dadātu medhāṃ devī sarasvatī</item>
+        <item>medhāṃ me aśvināvubhāvādhattāṃ puṣkarasrajā</item>
+        <item>apsarāsu ca yā medhā gandharveṣu ca yanmanaḥ</item>
+        <item>daivīṃ medhā sarasvatī sā māṃ medhā surabhirjuṣatāg svāhā</item>
+        <item>āmāṃ medhā surabhirviśvarūpā hiraṇyavarṇā jagatī jagamyā</item>
+        <item>ūrjasvatī payasā pinvamānā sā māṃ medhā supratīkā juṣantām</item>
+        <item>mayi medhāṃ mayi prajāṃ mayyagnistejo dadhātu</item>
+        <item>mayi medhāṃ mayi prajāṃ mayīndra indriyaṃ dadhātu</item>
+        <item>mayi medhāṃ mayi prajāṃ mayi sūryo bhrājo dadhātu</item>
+        <item>oṃ śāntiḥ śāntiḥ śāntiḥ</item>
+    </string-array>
+    <!-- Durga Suktam Lyrics -->
+    <string-array name="durga_suktam_lines_all">
+        <item>Om jātavedase sunavāma soma marātīyato nidahāti vedaḥ</item>
+        <item>sa naḥ parṣadati durgāṇi viśvā nāveva sindhuṁ duritātyagniḥ</item>
+        <item>tāmagnivarṇāṁ tapasā jvalantīṁ vairocanīṁ karmaphaleṣu juṣṭām</item>
+        <item>durgāṁ deviśaraṇamahaṁ prapadye sutarasi tarase namaḥ</item>
+        <item>agne tvaṁ pārayā navyo asmānthsvastibhiriti durgāṇi viśvā</item>
+        <item>pūśca pṛthvī bahulāna urvī bhavā tokāya tanayāya śaṁyoḥ</item>
+        <item>viśvāni no durgahā jātavedassindhu na nāvā duritātiparṣi</item>
+        <item>agne atrivanmanasā gṛṇāno smākaṁ bodhayitvā tanūnām</item>
+        <item>pṛtanā jitagum sahamānamugramagnigum huvem paramāthsadhasthāt</item>
+        <item>sa naḥ parṣadati durgāṇi viśvā kśāmaddevo ati duritātyagniḥ</item>
+        <item>pratnoṣi kamīḍyo adhvareṣu sanācca hotā navyaśca sathsi</item>
+        <item>svāṁcāgne tanuvam piprayasvāsmabhyaṁ ca saubhāgyamāyajasva</item>
+        <item>gobhirjuṣṭamayujo niṣitktaṁ tavendra viṣṇoranusaṁcarema</item>
+        <item>nākasya pṛṣṭhamabhi saṁvasāno vaiṣṇavīṁ loka iha mādayantām</item>
+        <item>katyanaya vidmahe kanyakumari dheemahi tanno durgihi procodayat</item>
+    </string-array>
+    <!-- Purusha Suktam Lyrics -->
+    <string-array name="purusha_suktam_lines_all">
+        <item>sahasra shirsha purushaha</item>
+        <item>sahasrakshas sahasrapat</item>
+        <item>sa bhumim vishvato vritva</item>
+        <item>atyatishthad dhashangulam</item>
+        <item>purusha evedagam sarvam</item>
+        <item>yadbhutam yaccha bhavyam</item>
+        <item>utamritatva syeshanaha</item>
+        <item>yadanne natirohati</item>
+        <item>etavanasya mahima</item>
+        <item>Ato jyayagashcha purushaha</item>
+        <item>padosya vishva bhutani</item>
+        <item>tripadasya mritam divi</item>
+        <item>tripadurdhva udaitpurushaha</item>
+        <item>padosyeha bhavatpunaha</item>
+        <item>tato vishvajya kramat</item>
+        <item>sashana ashane abhi</item>
+        <item>tasmad viradajayata</item>
+        <item>virajo adhi purushah</item>
+        <item>sa jato atyarichyata</item>
+        <item>pashchad bhumimatho puraha</item>
+        <item>yatpurushena havisha</item>
+        <item>deva yajnam atanvata</item>
+        <item>vasanto asyasidajyam</item>
+        <item>grishma idhmash sharaddhavihi</item>
+        <item>saptasyasan paridhayaha</item>
+        <item>trissapta samidhaha krataha</item>
+        <item>deva yadjajnam tanvanaha</item>
+        <item>abadhnan purusham pashum</item>
+        <item>tam yajnam barhishipraukshan</item>
+        <item>purusham jatamagrataha</item>
+        <item>tena deva ayajantaha</item>
+        <item>sadhya rishayashchaye</item>
+        <item>tasmad yajnat sarvahutaha</item>
+        <item>sambhritam vrishadajyam</item>
+        <item>pashugasta gashchakre vayavyan</item>
+        <item>aranyan gramyashcaye</item>
+        <item>tasmad yajnat sarvahutaha</item>
+        <item>richa ssamani jagnire</item>
+        <item>chandhagamsi jagnire tasmat</item>
+        <item>yajus tasmad ajayata</item>
+        <item>tasmadashva ajayanta</item>
+        <item>ye ke chobhaya dataha</item>
+        <item>gavo ha jagnire tasmat</item>
+        <item>tasmad jnata ajavayaha</item>
+        <item>yatpurusham vyadadhuhu</item>
+        <item>kadhita vyakalpayan</item>
+        <item>mukham kimasya kau bahu</item>
+        <item>kavuru padavuchayate</item>
+        <item>brahmanosya mukhamasit</item>
+        <item>bahu rajanyah kritaha</item>
+        <item>uru tadasya yadvaishyaha</item>
+        <item>padhyagam shudro ajayata</item>
+        <item>chandrama manaso jataha</item>
+        <item>chakshoh suryo ajayata</item>
+        <item>mukhad indrash chagnishcha</item>
+        <item>pranadvayur ajayata</item>
+        <item>nabhya asidantariksham</item>
+        <item>shirshno dyauh samavartata</item>
+        <item>padhyam bhumirdishash shrotrat</item>
+        <item>tada lokagamm akalpayan</item>
+        <item>vedahametam purusham mahantam</item>
+        <item>adityavarnam tamasastu pare</item>
+        <item>sarvani rupani vichitya dhiraha</item>
+        <item>namani kritvabhivadan yadaste</item>
+        <item>dhata purastadya mudajahara</item>
+        <item>shakrah pravidvan pradishashcha tasraha</item>
+        <item>tamevam vidvan amrita iha bhavati</item>
+        <item>nanyah pantha ayanaya vidyate</item>
+        <item>yajnena yajnamayajanta devaha</item>
+        <item>tani dharmani pradhamanyasan</item>
+        <item>te ha nakam mahimanas sachante</item>
+        <item>yatra purve sadhyah santi devaha</item>
+        <item>adbhya sambhutah prithivyai rasaachh</item>
+        <item>vishvakarmanas samavartatadhi</item>
+        <item>tasya tvashta vidadha drupameti</item>
+        <item>tatpurushasya vishvamajanamagre</item>
+        <item>vedahametam purusham mahantam</item>
+        <item>adityavarnam tamasah parastat</item>
+        <item>tamevam vidvan amrita iha bhavati</item>
+        <item>nanyah pantha vidyate yanaya</item>
+        <item>prajapatishcharati garbhe antaha</item>
+        <item>ajayamano bahudha vijayate</item>
+        <item>tasya dhirah parijananti yonim</item>
+        <item>marichinam padamicchanti vedhasaha</item>
+        <item>yo devebhya atapati</item>
+        <item>yo devanam purohitaha</item>
+        <item>purvo yo devebhyo jataha</item>
+        <item>namo ruchaya brahmaye</item>
+        <item>rucham brahmam janayantaha</item>
+        <item>deva agre tadabruvan</item>
+        <item>yastvaivam brahmano vidyat</item>
+        <item>tasya deva asanvashe</item>
+        <item>hrishcha te lakshmishcha patnyau</item>
+        <item>ahoratre parshve</item>
+        <item>nakshatrani rupam</item>
+        <item>ashvinau vyattam</item>
+        <item>ishtam manishana</item>
+        <item>amun manishana</item>
+        <item>sarvam manishana</item>
+        <item>Om shanti shanti shantihi</item>
+    </string-array>
+
+    <!-- Narayana Suktam Lyrics -->
+    <string-array name="narayana_suktam_lines_all">
+        <item>sahasraśīrṣaṁ devaṁ viśvākśaṁ viśvaśambhuvaṁ</item>
+        <item>viśvaṁ nārāyaṇaṁ devamakśaraṁ paramaṁ padam</item>
+        <item>viśvataḥ paramam nityaṁ viśvaṁ nārāyaṇagï harim</item>
+        <item>viśvamevedaṁ puruṣastadviśvamupajīvat</item>
+        <item>patiṁ viśvasyātmeśvaragï śāśvatagï śivamacyutam</item>
+        <item>nārāyaṇaṁ mahājñeyaṁ viśvātmānaṁ parāyaṇam</item>
+        <item>nārāyaṇaḥ paro jyotirātmā nārāyaṇaḥ paraḥ</item>
+        <item>nārāyaṇaḥ paraṁ brahma tattvaṁ nārāyaṇaḥ paraḥ</item>
+        <item>nārāyaṇaḥ paro dhyātā dhyānam nārāyaṇaḥ paraḥ</item>
+        <item>yacca kiñcijjagatsarvaṁ dṛśyate śrūyate’pi vā</item>
+        <item>antarbahiśca tatsarvaṁ vyāpya nārāyaṇaḥ sthitaḥ</item>
+        <item>anantamavyayaṁ kavigï samudre’ntaṁ  viśvaśambhuvam</item>
+        <item>padmakośapratīkāśagï hṛdayaṁ cāpyadhomukham</item>
+        <item>adho niṣṭayā vitasyānte nābhyāmupari tiṣṭhat</item>
+        <item>jvālamālākulaṁ bhāti viśvasyāyatanaṁ mahat</item>
+        <item>santatagï śilābhistu lambatyākośasannibham</item>
+        <item>tasyānte suṣiragï sūkśmaṁ tasmin sarvaṁ pratiṣṭhitam</item>
+        <item>tasya madhye mahanagnir viśvārcir viśvatomukhaḥ</item>
+        <item>so’grabhug vibhajan tiṣṭhan āhāramajaraḥ kaviḥ</item>
+        <item>tiryagūrdhvamadaḥśāyī raśmayastasya santatāḥ</item>
+        <item>santāpayati svaṁ dehamāpātatalamastakam</item>
+        <item>tasya madhye vahniśikhā aṇīyordhvā vyavasthitaḥ</item>
+        <item>nīlatoyadamadhyasthād vidyullekheva bhāsvarā</item>
+        <item>nīvāraśūkavattanvī pītā bhāsvatyaṇūpamā</item>
+        <item>tasyāḥ śikhāyā madhye paramātmā vyavasthitaḥ</item>
+        <item>sa brahma sa śivaḥ sa hariḥ sendraḥ so’kṣaraḥ  paramaḥ svarāṭ</item>
+        <item>ṛtagï satyaṁ paraṁ brahma puruṣaṁ kṛṣṇapiṅgalam</item>
+        <item>ūrdhvaretaṁ virūpākśaṁ viśvarūpāya vai namo namaḥ</item>
+        <item>ōm nārāyaṇāya vidmahe vāsudevāya dhīmahi</item>
+        <item>tanno viṣṇuḥ pracodayāt</item>
+    </string-array>
+    <!-- Sri Suktam -->
+    <string-array name="sri_suktam_lines_all">
+        <item>ōm hiraṇyavarṇāṁ hariṇīṁ suvarṇarajatasrajām</item>
+        <item>candrāṁ hiraṇmayīṁ lakṣmīṁ jātavedo ma āvah</item>
+        <item>tāṁ ma āvaha jātavedo lakṣmīmanapagāminīm</item>
+        <item>yasyāṁ hiraṇyaṁ vindeyaṁ gāmaśvaṁ puruṣānaham</item>
+        <item>aśvapūrvāṁ rathamadhyāṁ hastinādapramodinīm</item>
+        <item>śriyaṁ devīmupahvaye śrīrmā devīrjuṣatām</item>
+        <item>kāṁ sosmitāṁ hiraṇyaprākārāmārdrāṁ jvalantīṁ tṛaptāṁ tarpayantīm</item>
+        <item>padme sthitāṁ padmavarṇāṁ tāmihopahvaye śriyam</item>
+        <item>candrāṁ prabhāsāṁ yaśasā jvalaṁtīṁ śriyaṁ loke devajuṣṭāmudārām</item>
+        <item>tāṁ padminīmīṁ śaraṇamahaṁ prapadye alakṣmīrme naśyatāṁ tvāṁ vṛṇe</item>
+        <item>ādityavarṇe tapaso’dhijāto vanaspatistava vṛkṣo’tha bilvaḥ</item>
+        <item>tasya phalāni tapasā nudantu māyāntarāyāśca bāhyā alakṣmīḥ</item>
+        <item>upaitu māṁ devasakhaḥ kīrtiśca maṇinā saha</item>
+        <item>prādurbhūto’smi rāṣṭre’smin kīrtimṛddhiṁ dadātu me</item>
+        <item>kṣutpipāsāmalāṁ jyeṣṭhāmalakṣmīṁ nāśayāmyaham</item>
+        <item>abhūtimasamṛddhiṁ ca sarvāṁ nirṇuda me gṛahāt</item>
+        <item>gandhadvārāṁ durādharṣāṁ nityapuṣṭāṁ karīṣiṇīm</item>
+        <item>īśvarīṁ sarvabhūtānāṁ tāmihopahvaye śriyam</item>
+        <item>manasaḥ kāmamākūtiṁ vācaḥ satyamaśīmahi</item>
+        <item>paśūnāṁ rūpamannasya mayi śrīḥ śrayatāṁ yaśaḥ</item>
+        <item>kardamena prajā bhūtā mayi sambhava kardama</item>
+        <item>śriyaṁ vāsaya me kule mātaraṁ padmamālinīm</item>
+        <item>āpaḥ sṛjantu snigdhāni ciklīta vasa me gṛhe</item>
+        <item>ni ca devīṁ mātaragï śriyaṁ vāsaya me kule</item>
+        <item>ārdrāṁ puṣkariṇīṁ puṣṭiṁ suvarṇāṁ hemamālinīm</item>
+        <item>candrāṁ hiraṇmayīṁ lakṣmīṁ jātavedo ma āvaha</item>
+        <item>ārdrāṁ yaḥ kariṇīṁ yaṣṭiṁ piṅgalāṁ padmamālinīm</item>
+        <item>sūryāṁ hiraṇmayīṁ lakṣmīṁ jātavedo ma āvaha</item>
+        <item>tāṁ ma āvaha jātavedo lakṣmīmanapagāminīm</item>
+        <item>yasyāṁ hiraṇyaṁ prabhūtaṁ gāvo dāsyo’śvānvindeyaṁ puruṣānaham</item>
+        <item>mahādevyai ca vidmahe viṣṇupatnī ca dhīmahi</item>
+        <item>tanno lakṣmīḥ pracodayāt</item>
+    </string-array>
+    <string-array name="lalitha_lines_all">
+        <item>ōm śrī mātā, śrī mahārāṅñī, śrīmat-siṃhāsaneśvarī</item>
+        <item>cidagni kuṇḍasambhūtā, devakāryasamudyatā</item>
+        <item>udyadbhānu sahasrābhā, caturbāhu samanvitā</item>
+        <item>rāgasvarūpa pāśāḍhyā, krodhākārāṅkuśojjvalā</item>
+        <item>manorūpekṣukodaṇḍā, pañcatanmātra sāyakā</item>
+        <item>nijāruṇa prabhāpūra majjad-brahmāṇḍamaṇḍalā </item>
+        <item>campakāśoka punnāga saugandhika lasatkacā</item>
+        <item>kuruvinda maṇiśreṇī kanatkoṭīra maṇḍitā </item>
+        <item>aṣṭamī candra vibhrāja daḷikasthala śobhitā</item>
+        <item>mukhacandra kaḷaṅkābha mṛganābhi viśeṣakā</item>
+        <item>vadanasmara māṅgalya gṛhatoraṇa cillikā</item>
+        <item>vaktralakṣmī parīvāha calanmīnābha locanā</item>
+        <item>navacampaka puṣpābha nāsādaṇḍa virājitā </item>
+        <item>tārākānti tiraskāri nāsābharaṇa bhāsurā</item>
+        <item>kadamba mañjarīklupta karṇapūra manoharā </item>
+        <item>tāṭaṅka yugaḷībhūta tapanoḍupa maṇḍalā</item>
+        <item>padmarāga śilādarśa paribhāvi kapolabhūḥ</item>
+        <item>navavidruma bimbaśrīḥ nyakkāri radanacchadā</item>
+        <item>śuddha vidyāṅkurākāra dvijapaṅkti dvayojjvalā</item>
+        <item>karpūravīṭi kāmoda samākarṣa ddigantarā</item>
+        <item>nijasallāpa mādhurya vinirbhar-tsita kacchapī</item>
+        <item>mandasmita prabhāpūra majjat-kāmeśa mānasā</item>
+        <item>anākalita sādṛśya cubuka śrī virājitā</item>
+        <item>kāmeśabaddha māṅgalya sūtraśobhita kantharā</item>
+        <item>kanakāṅgada keyūra kamanīya bhujānvitā</item>
+        <item>ratnagraiveya cintāka lolamuktā phalānvitā</item>
+        <item>kāmeśvara premaratna maṇi pratipaṇastanī</item>
+        <item>nābhyālavāla romāḷi latāphala kucadvayī</item>
+        <item>lakṣyaromalatā dhāratā samunneya madhyamā</item>
+        <item>stanabhāra daḷan-madhya paṭṭabandha vaḷitrayā</item>
+        <item>aruṇāruṇa kausumbha vastra bhāsvat-kaṭītaṭī</item>
+        <item>ratnakiṅkiṇi kāramya raśanādāma bhūṣitā</item>
+        <item>kāmeśa ṅñāta saubhāgya mārdavoru dvayānvitā</item>
+        <item>māṇikya makuṭākāra jānudvaya virājitā</item>
+        <item>indragopa parikṣipta smara tūṇābha jaṅghikā</item>
+        <item>gūḍhagulbhā kūrmapṛṣṭha jayiṣṇu prapadānvitā</item>
+        <item>nakhadīdhiti saṃchanna namajjana tamoguṇā</item>
+        <item>padadvaya prabhājāla parākṛta saroruhā</item>
+        <item>śiñjāna maṇimañjīra maṇḍita śrī padāmbujā</item>
+        <item>marāḷī mandagamanā, mahālāvaṇya śevadhiḥ</item>
+        <item>sarvāruṇā navadyāṅgī sarvābharaṇa bhūṣitā</item>
+        <item>śivakāmeśvarāṅkasthā, śivā, svādhīna vallabhā</item>
+        <item>sumeru madhyaśṛṅgasthā, śrīmannagara nāyikā</item>
+        <item>cintāmaṇi gṛhāntasthā, pañcabrahmāsanasthitā</item>
+        <item>mahāpadmāṭavī saṃsthā, kadamba vanavāsinī</item>
+        <item>sudhāsāgara madhyasthā, kāmākṣī kāmadāyinī</item>
+        <item>devarṣi gaṇasaṅghāta stūyamānātma vaibhavā</item>
+        <item>bhaṇḍāsura vadhodyukta śaktisenā samanvitā</item>
+        <item>sampatkarī samārūḍha sindhura vrajasevitā</item>
+        <item>aśvārūḍhādhiṣṭhitāśva koṭikoṭi bhirāvṛtā </item>
+        <item>cakrarāja rathārūḍha sarvāyudha pariṣkṛtā</item>
+        <item>geyacakra rathārūḍha mantriṇī parisevitā</item>
+        <item>kiricakra rathārūḍha daṇḍanāthā puraskṛtā</item>
+        <item>jvālāmālini kākṣipta vahniprākāra madhyagā</item>
+        <item>bhaṇḍasainya vadhodyukta śakti vikramaharṣitā</item>
+        <item>nityā parākramāṭopa nirīkṣaṇa samutsukā</item>
+        <item>bhaṇḍaputra vadhodyukta bālāvikrama nanditā</item>
+        <item>mantriṇyambā viracita viṣaṅga vadhatoṣitā</item>
+        <item>viśukra prāṇaharaṇa vārāhī vīryananditā</item>
+        <item>kāmeśvara mukhāloka kalpita śrī gaṇeśvarā</item>
+        <item>mahāgaṇeśa nirbhinna vighnayantra praharṣitā</item>
+        <item>bhaṇḍāsurendra nirmukta śastra pratyastra varṣiṇī</item>
+        <item>karāṅguḷi nakhotpanna nārāyaṇa daśākṛtiḥ</item>
+        <item>mahāpāśupatāstrāgni nirdagdhāsura sainikā</item>
+        <item>kāmeśvarāstra nirdagdha sabhaṇḍāsura śūnyakā </item>
+        <item>brahmopendra mahendrādi devasaṃstuta vaibhavā</item>
+        <item>haranetrāgni sandagdha kāma sañjīvanauṣadhiḥ</item>
+        <item>śrīmadvāgbhava kūṭaika svarūpa mukhapaṅkajā</item>
+        <item>kaṇṭhādhaḥ kaṭiparyanta madhyakūṭa svarūpiṇī</item>
+        <item>śaktikūṭaika tāpanna kaṭyathobhāga dhāriṇī</item>
+        <item>mūlamantrātmikā, mūlakūṭa traya kaḷebarā</item>
+        <item>kuḷāmṛtaika rasikā, kuḷasaṅketa pālinī</item>
+        <item>kuḷāṅganā, kuḷāntaḥsthā, kauḷinī, kuḷayoginī</item>
+        <item>akuḷā, samayāntaḥsthā, samayācāra tatparā</item>
+        <item>mūlādhāraika nilayā, brahmagranthi vibhedinī</item>
+        <item>maṇipūrānta ruditā, viṣṇugranthi vibhedinī</item>
+        <item>āṅñā cakrāntarāḷasthā, rudragranthi vibhedinīāṅñā</item>
+        <item>sahasrārāmbujā rūḍhā, sudhāsārābhi varṣiṇī</item>
+        <item>taṭillatā samaruciḥ, ṣaṭ-cakropari saṃsthitā</item>
+        <item>mahāśaktiḥ, kuṇḍalinī, bisatantu tanīyasī</item>
+        <item>bhavānī, bhāvanāgamyā, bhavāraṇya kuṭhārikā</item>
+        <item>bhadrapriyā, bhadramūrti, rbhaktasaubhāgya dāyinī</item>
+        <item>bhaktipriyā, bhaktigamyā, bhaktivaśyā, bhayāpahā</item>
+        <item>śāmbhavī, śāradārādhyā, śarvāṇī, śarmadāyinī</item>
+        <item>śāṅkarī, śrīkarī, sādhvī, śaraccandranibhānanā</item>
+        <item>śātodarī, śāntimatī, nirādhārā, nirañjanā</item>
+        <item>nirlepā, nirmalā, nityā, nirākārā, nirākulā</item>
+        <item>nirguṇā, niṣkaḷā, śāntā, niṣkāmā, nirupaplavā</item>
+        <item>nityamuktā, nirvikārā, niṣprapañcā, nirāśrayā</item>
+        <item>nityaśuddhā, nityabuddhā, niravadyā, nirantarā</item>
+        <item>niṣkāraṇā, niṣkaḷaṅkā, nirupādhi, rnirīśvarā</item>
+        <item>nīrāgā, rāgamathanī, nirmadā, madanāśinī</item>
+        <item>niścintā, nirahaṅkārā, nirmohā, mohanāśinī</item>
+        <item>nirmamā, mamatāhantrī, niṣpāpā, pāpanāśinī</item>
+        <item>niṣkrodhā, krodhaśamanī, nirlobhā, lobhanāśinī</item>
+        <item>niḥsaṃśayā, saṃśayaghnī, nirbhavā, bhavanāśinī</item>
+        <item>nirvikalpā, nirābādhā, nirbhedā, bhedanāśinī</item>
+        <item>nirnāśā, mṛtyumathanī, niṣkriyā, niṣparigrahā</item>
+        <item>nistulā, nīlacikurā, nirapāyā, niratyayā</item>
+        <item>durlabhā, durgamā, durgā, duḥkhahantrī, sukhapradā</item>
+        <item>duṣṭadūrā, durācāra śamanī, doṣavarjitā</item>
+        <item>sarvaṅñā, sāndrakaruṇā, samānādhikavarjitā</item>
+        <item>sarvaśaktimayī, sarvamaṅgaḷā, sadgatipradā</item>
+        <item>sarveśvarī, sarvamayī, sarvamantra svarūpiṇī</item>
+        <item>sarvayantrātmikā, sarvatantrarūpā, manonmanī</item>
+        <item>māheśvarī, mahādevī, mahālakṣmī, rmṛḍapriyā</item>
+        <item>mahārūpā, mahāpūjyā, mahāpātaka nāśinī</item>
+        <item>mahāmāyā, mahāsattvā, mahāśakti rmahāratiḥ</item>
+        <item>mahābhogā, mahaiśvaryā, mahāvīryā, mahābalā</item>
+        <item>mahābuddhi, rmahāsiddhi, rmahāyogeśvareśvarī</item>
+        <item>mahātantrā, mahāmantrā, mahāyantrā, mahāsanā</item>
+        <item>mahāyāga kramārādhyā, mahābhairava pūjitā</item>
+        <item>maheśvara mahākalpa mahātāṇḍava sākṣiṇī</item>
+        <item>mahākāmeśa mahiṣī, mahātripura sundarī</item>
+        <item>catuḥṣaṣṭyupacārāḍhyā, catuṣṣaṣṭi kaḷāmayī</item>
+        <item>mahā catuṣṣaṣṭi koṭi yoginī gaṇasevitā</item>
+        <item>manuvidyā, candravidyā, candramaṇ	alamadhyagā</item>
+        <item>cārurūpā, cāruhāsā, cārucandra kaḷādharā</item>
+        <item>carācara jagannāthā, cakrarāja niketanā</item>
+        <item>pārvatī, padmanayanā, padmarāga samaprabhā </item>
+        <item>pañcapretāsanāsīnā, pañcabrahma svarūpiṇī</item>
+        <item>cinmayī, paramānandā, viṅñāna ghanarūpiṇī</item>
+        <item>dhyānadhyātṛ dhyeyarūpā, dharmādharma vivarjitā</item>
+        <item>viśvarūpā, jāgariṇī, svapantī, taijasātmikā</item>
+        <item>suptā, prāṅñātmikā, turyā, sarvāvasthā vivarjitā</item>
+        <item>sṛṣṭikartrī, brahmarūpā, goptrī, govindarūpiṇī</item>
+        <item>saṃhāriṇī, rudrarūpā, tirodhānakarīśvarī</item>
+        <item>sadāśivānugrahadā, pañcakṛtya parāyaṇā</item>
+        <item>bhānumaṇḍala madhyasthā, bhairavī, bhagamālinī</item>
+        <item>padmāsanā, bhagavatī, padmanābha sahodarī</item>
+        <item>unmeṣa nimiṣotpanna vipanna bhuvanāvaḷiḥ</item>
+        <item>sahasraśīrṣavadanā, sahasrākṣī, sahasrapāt</item>
+        <item>ābrahma kīṭajananī, varṇāśrama vidhāyinī</item>
+        <item>nijāṅñārūpanigamā, puṇyāpuṇya phalapradā</item>
+        <item>śruti sīmanta sindhūrīkṛta pādābjadhūḷikā</item>
+        <item>sakalāgama sandoha śuktisampuṭa mauktikā</item>
+        <item>puruṣārthapradā, pūrṇā, bhoginī, bhuvaneśvarī</item>
+        <item>ambikā,nādi nidhanā, haribrahmendra sevitā</item>
+        <item>nārāyaṇī, nādarūpā, nāmarūpa vivarjitā</item>
+        <item>hrīṅkārī, hrīmatī, hṛdyā, heyopādeya varjitā</item>
+        <item>rājarājārcitā, rāṅñī, ramyā, rājīvalocanā</item>
+        <item>rañjanī, ramaṇī, rasyā, raṇatkiṅkiṇi mekhalā</item>
+        <item>ramā, rākenduvadanā, ratirūpā, ratipriyā</item>
+        <item>rakṣākarī, rākṣasaghnī, rāmā, ramaṇalampaṭā</item>
+        <item>kāmyā, kāmakaḷārūpā, kadamba kusumapriyā</item>
+        <item>kalyāṇī, jagatīkandā, karuṇārasa sāgarā</item>
+        <item>kaḷāvatī, kaḷālāpā, kāntā, kādambarīpriyā</item>
+        <item>varadā, vāmanayanā, vāruṇīmadavihvalā</item>
+        <item>viśvādhikā, vedavedyā, vindhyācala nivāsinī</item>
+        <item>vidhātrī, vedajananī, viṣṇumāyā, vilāsinī</item>
+        <item>kṣetrasvarūpā, kṣetreśī, kṣetra kṣetraṅña pālinī</item>
+        <item>kṣayavṛddhi vinirmuktā, kṣetrapāla samarcitā</item>
+        <item>vijayā, vimalā, vandyā, vandāru janavatsalā</item>
+        <item>vāgvādinī, vāmakeśī, vahnimaṇḍala vāsinī</item>
+        <item>bhaktimat-kalpalatikā, paśupāśa vimocanī</item>
+        <item>saṃhṛtāśeṣa pāṣaṇḍā, sadācāra pravartikā</item>
+        <item>tāpatrayāgni santapta samāhlādana candrikā</item>
+        <item>taruṇī, tāpasārādhyā, tanumadhyā, tamopahā</item>
+        <item>citi, statpadalakṣyārthā, cideka rasarūpiṇī</item>
+        <item>svātmānandalavībhūta brahmādyānanda santatiḥ</item>
+        <item>parā, pratyakcitī rūpā, paśyantī, paradevatā</item>
+        <item>madhyamā, vaikharīrūpā, bhaktamānasa haṃsikā</item>
+        <item>kāmeśvara prāṇanāḍī, kṛtaṅñā, kāmapūjitā</item>
+        <item>śṛṅgāra rasasampūrṇā, jayā, jālandharasthitā</item>
+        <item>oḍyāṇa pīṭhanilayā, bindumaṇḍala vāsinī</item>
+        <item>rahoyāga kramārādhyā, rahastarpaṇa tarpitā</item>
+        <item>sadyaḥ prasādinī, viśvasākṣiṇī, sākṣivarjitā</item>
+        <item>ṣaḍaṅgadevatā yuktā, ṣāḍguṇya paripūritā</item>
+        <item>nityaklinnā, nirupamā, nirvāṇa sukhadāyinī</item>
+        <item>nityā, ṣoḍaśikārūpā, śrīkaṇṭhārdha śarīriṇī</item>
+        <item>prabhāvatī, prabhārūpā, prasiddhā, parameśvarī</item>
+        <item>mūlaprakṛti ravyaktā, vyaktāvyakta svarūpiṇī</item>
+        <item>vyāpinī, vividhākārā, vidyāvidyā svarūpiṇī</item>
+        <item>mahākāmeśa nayanā, kumudāhlāda kaumudī</item>
+        <item>bhaktahārda tamobheda bhānumad-bhānusantatiḥ</item>
+        <item>śivadūtī, śivārādhyā, śivamūrti, śśivaṅkarī</item>
+        <item>śivapriyā, śivaparā, śiṣṭeṣṭā, śiṣṭapūjitā</item>
+        <item>aprameyā, svaprakāśā, manovācāma gocarā</item>
+        <item>cicchakti, ścetanārūpā, jaḍaśakti, rjaḍātmikā</item>
+        <item>gāyatrī, vyāhṛti, ssandhyā, dvijabṛnda niṣevitā</item>
+        <item>tattvāsanā, tattvamayī, pañcakośāntarasthitā</item>
+        <item>nissīmamahimā, nityayauvanā, madaśālinī</item>
+        <item>madaghūrṇita raktākṣī, madapāṭala gaṇḍabhūḥ</item>
+        <item>candana dravadigdhāṅgī, cāmpeya kusuma priyā</item>
+        <item>kuśalā, komalākārā, kurukuḷḷā, kuleśvarī</item>
+        <item>kuḷakuṇḍālayā, kauḷa mārgatatpara sevitā</item>
+        <item>kumāra gaṇanāthāmbā, tuṣṭiḥ, puṣṭi, rmati, rdhṛtiḥ</item>
+        <item>śāntiḥ, svastimatī, kānti, rnandinī, vighnanāśinī</item>
+        <item>tejovatī, trinayanā, lolākṣī kāmarūpiṇī</item>
+        <item>mālinī, haṃsinī, mātā, malayācala vāsinī</item>
+        <item>sumukhī, naḷinī, subhrūḥ, śobhanā, suranāyikā</item>
+        <item>kālakaṇṭhī, kāntimatī, kṣobhiṇī, sūkṣmarūpiṇī</item>
+        <item>vajreśvarī, vāmadevī, vayovasthā vivarjitā</item>
+        <item>siddheśvarī, siddhavidyā, siddhamātā, yaśasvinī</item>
+        <item>viśuddhi cakranilayā, raktavarṇā, trilocanā</item>
+        <item>khaṭvāṅgādi praharaṇā, vadanaika samanvitā</item>
+        <item>pāyasānnapriyā, tvak-sthā, paśuloka bhayaṅkarī</item>
+        <item>amṛtādi mahāśakti saṃvṛtā, ḍākinīśvarī</item>
+        <item>anāhatābja nilayā, śyāmābhā, vadanadvayā</item>
+        <item>daṃṣṭrojjvalā,kṣamālādhidharā, rudhira saṃsthitā</item>
+        <item>kāḷarātryādi śaktyoghavṛtā, snigdhaudanapriyā</item>
+        <item>mahāvīrendra varadā, rākiṇyambā svarūpiṇī</item>
+        <item>maṇipūrābja nilayā, vadanatraya saṃyutā</item>
+        <item>vajrādhikāyudhopetā, ḍāmaryādibhi rāvṛtā</item>
+        <item>raktavarṇā, māṃsaniṣṭhā, guḍānna prītamānasā</item>
+        <item>samasta bhaktasukhadā, lākinyambā svarūpiṇī</item>
+        <item>svādhiṣṭhānāmbu jagatā, caturvaktra manoharā</item>
+        <item>śūlādyāyudha sampannā, pītavarṇā, tigarvitā</item>
+        <item>medoniṣṭhā, madhuprītā, bandinyādi samanvitā</item>
+        <item>dadhyannāsakta hṛdayā, ḍākinī rūpadhāriṇī</item>
+        <item>mūlā dhārāmbujārūḍhā, pañcavaktrā, sthisaṃsthitā</item>
+        <item>aṅkuśādi praharaṇā, varadādi niṣevitā</item>
+        <item>mudgaudanāsakta cittā, sākinyambāsvarūpiṇī</item>
+        <item>āṅñā cakrābjanilayā, śuklavarṇā, ṣaḍānanā</item>
+        <item>majjāsaṃsthā, haṃsavatī mukhyaśakti samanvitā</item>
+        <item>haridrānnaika rasikā, hākinī rūpadhāriṇī</item>
+        <item>sahasradaḷa padmasthā, sarvavarṇopa śobhitā</item>
+        <item>sarvāyudhadharā, śukla saṃsthitā, sarvatomukhī</item>
+        <item>sarvaudana prītacittā, yākinyambā svarūpiṇī</item>
+        <item>svāhā, svadhā, mati, rmedhā, śrutiḥ, smṛti, ranuttamā</item>
+        <item>puṇyakīrtiḥ, puṇyalabhyā, puṇyaśravaṇa kīrtanā</item>
+        <item>pulomajārcitā, bandhamocanī, bandhurālakā</item>
+        <item>vimarśarūpiṇī, vidyā, viyadādi jagatprasūḥ</item>
+        <item>sarvavyādhi praśamanī, sarvamṛtyu nivāriṇī</item>
+        <item>agragaṇyā, cintyarūpā, kalikalmaṣa nāśinī</item>
+        <item>kātyāyinī, kālahantrī, kamalākṣa niṣevitā</item>
+        <item>tāmbūla pūrita mukhī, dāḍimī kusumaprabhā</item>
+        <item>mṛgākṣī, mohinī, mukhyā, mṛḍānī, mitrarūpiṇī</item>
+        <item>nityatṛptā, bhaktanidhi, rniyantrī, nikhileśvarī</item>
+        <item>maitryādi vāsanālabhyā, mahāpraḷaya sākṣiṇī</item>
+        <item>parāśaktiḥ, parāniṣṭhā, praṅñāna ghanarūpiṇī</item>
+        <item>mādhvīpānālasā, mattā, mātṛkā varṇa rūpiṇī</item>
+        <item>mahākailāsa nilayā, mṛṇāla mṛdudorlatā</item>
+        <item>mahanīyā, dayāmūrtī, rmahāsāmrājyaśālinī</item>
+        <item>ātmavidyā, mahāvidyā, śrīvidyā, kāmasevitā</item>
+        <item>śrīṣoḍaśākṣarī vidyā, trikūṭā, kāmakoṭikā</item>
+        <item>kaṭākṣakiṅkarī bhūta kamalā koṭisevitā</item>
+        <item>śiraḥsthitā, candranibhā, phālasthendra dhanuḥprabhā</item>
+        <item>hṛdayasthā, raviprakhyā, trikoṇāntara dīpikā</item>
+        <item>dākṣāyaṇī, daityahantrī, dakṣayaṅña vināśinī</item>
+        <item>darāndoḷita dīrghākṣī, darahāsojjvalanmukhī</item>
+        <item>gurumūrti, rguṇanidhi, rgomātā, guhajanmabhūḥ</item>
+        <item>deveśī, daṇḍanītisthā, daharākāśa rūpiṇī</item>
+        <item>pratipanmukhya rākānta tithimaṇḍala pūjitā</item>
+        <item>kaḷātmikā, kaḷānāthā, kāvyālāpa vinodinī</item>
+        <item>sacāmara ramāvāṇī savyadakṣiṇa sevitā</item>
+        <item>ādiśakti, rameyātmā, paramā, pāvanākṛtiḥ</item>
+        <item>anekakoṭi brahmāṇḍa jananī, divyavigrahā</item>
+        <item>klīṅkārī, kevalā, guhyā, kaivalya padadāyinī</item>
+        <item>tripurā, trijagadvandyā, trimūrti, stridaśeśvarī</item>
+        <item>tryakṣarī, divyagandhāḍhyā, sindhūra tilakāñcitā</item>
+        <item>umā, śailendratanayā, gaurī, gandharva sevitā</item>
+        <item>viśvagarbhā, svarṇagarbhā,varadā vāgadhīśvarī</item>
+        <item>dhyānagamyā, paricchedyā, ṅñānadā, ṅñānavigrahā</item>
+        <item>sarvavedānta saṃvedyā, satyānanda svarūpiṇī</item>
+        <item>lopāmudrārcitā, līlāklupta brahmāṇḍamaṇḍalā</item>
+        <item>adṛśyā, dṛśyarahitā, viṅñātrī, vedyavarjitā</item>
+        <item>yoginī, yogadā, yogyā, yogānandā, yugandharā</item>
+        <item>icchāśakti ṅñānaśakti kriyāśakti svarūpiṇī</item>
+        <item>sarvadhārā, supratiṣṭhā, sadasad-rūpadhāriṇī</item>
+        <item>aṣṭamūrti, rajājaitrī, lokayātrā vidhāyinī</item>
+        <item>ekākinī, bhūmarūpā, nirdvaitā, dvaitavarjitā</item>
+        <item>annadā, vasudā, vṛddhā, brahmātmaikya svarūpiṇī</item>
+        <item>bṛhatī, brāhmaṇī, brāhmī, brahmānandā, balipriyā</item>
+        <item>bhāṣārūpā, bṛhatsenā, bhāvābhāva vivarjitā</item>
+        <item>sukhārādhyā, śubhakarī, śobhanā sulabhāgatiḥ</item>
+        <item>rājarājeśvarī, rājyadāyinī, rājyavallabhā</item>
+        <item>rājat-kṛpā, rājapīṭha niveśita nijāśritāḥ</item>
+        <item>rājyalakṣmīḥ, kośanāthā, caturaṅga baleśvarī</item>
+        <item>sāmrājyadāyinī, satyasandhā, sāgaramekhalā</item>
+        <item>dīkṣitā, daityaśamanī, sarvaloka vaśaṅkarī</item>
+        <item>sarvārthadātrī, sāvitrī, saccidānanda rūpiṇī</item>
+        <item>deśakālā paricchinnā, sarvagā, sarvamohinī</item>
+        <item>sarasvatī, śāstramayī, guhāmbā, guhyarūpiṇī</item>
+        <item>sarvopādhi vinirmuktā, sadāśiva pativratā</item>
+        <item>sampradāyeśvarī, sādhvī, gurumaṇḍala rūpiṇī</item>
+        <item>kulottīrṇā, bhagārādhyā, māyā, madhumatī, mahī</item>
+        <item>gaṇāmbā, guhyakārādhyā, komalāṅgī, gurupriyā</item>
+        <item>svatantrā, sarvatantreśī, dakṣiṇāmūrti rūpiṇī</item>
+        <item>sanakādi samārādhyā, śivaṅñāna pradāyinī</item>
+        <item>citkaḷā, nandakalikā, premarūpā, priyaṅkarī</item>
+        <item>nāmapārāyaṇa prītā, nandividyā, naṭeśvarī</item>
+        <item>mithyā jagadadhiṣṭhānā muktidā, muktirūpiṇī</item>
+        <item>lāsyapriyā, layakarī, lajjā, rambhādi vanditā</item>
+        <item>bhavadāva sudhāvṛṣṭiḥ, pāpāraṇya davānalā</item>
+        <item>daurbhāgyatūla vātūlā, jarādhvānta raviprabhā</item>
+        <item>bhāgyābdhicandrikā, bhaktacittakeki ghanāghanā</item>
+        <item>rogaparvata dambhoḷi, rmṛtyudāru kuṭhārikā</item>
+        <item>maheśvarī, mahākāḷī, mahāgrāsā, mahāśanā</item>
+        <item>aparṇā, caṇḍikā, caṇḍamuṇḍā sura niṣūdinī</item>
+        <item>kṣarākṣarātmikā, sarvalokeśī, viśvadhāriṇī</item>
+        <item>trivargadātrī, subhagā, tryambakā, triguṇātmikā</item>
+        <item>svargāpavargadā, śuddhā, japāpuṣpa nibhākṛtiḥ</item>
+        <item>ojovatī, dyutidharā, yaṅñarūpā, priyavratā</item>
+        <item>durārādhyā, durādarṣā, pāṭalī kusumapriyā</item>
+        <item>mahatī, merunilayā, mandāra kusumapriyā</item>
+        <item>vīrārādhyā, virāḍrūpā, virajā, viśvatomukhī</item>
+        <item>pratyagrūpā, parākāśā, prāṇadā, prāṇarūpiṇī</item>
+        <item>mārtāṇḍa bhairavārādhyā, mantriṇī nyastarājyadhūḥ</item>
+        <item>tripureśī, jayatsenā, nistraiguṇyā, parāparā</item>
+        <item>satyaṅñānā nandarūpā, sāmarasya parāyaṇā</item>
+        <item>kapardinī, kalāmālā, kāmadhuk, kāmarūpiṇī</item>
+        <item>kaḷānidhiḥ, kāvyakaḷā, rasaṅñā, rasaśevadhiḥ</item>
+        <item>puṣṭā, purātanā, pūjyā, puṣkarā, puṣkarekṣaṇā</item>
+        <item>parañjyotiḥ, parandhāma, paramāṇuḥ, parātparā</item>
+        <item>pāśahastā, pāśahantrī, paramantra vibhedinī</item>
+        <item>mūrtā, mūrtā, nityatṛptā, muni mānasa haṃsikā</item>
+        <item>satyavratā, satyarūpā, sarvāntaryāminī, satī</item>
+        <item>brahmāṇī, brahmajananī, bahurūpā, budhārcitā</item>
+        <item>prasavitrī, pracaṇḍāṅñā, pratiṣṭhā, prakaṭākṛtiḥ</item>
+        <item>prāṇeśvarī, prāṇadātrī, pañcāśat-pīṭharūpiṇī</item>
+        <item>viśṛṅkhalā, viviktasthā, vīramātā, viyatprasūḥ</item>
+        <item>mukundā, mukti nilayā, mūlavigraha rūpiṇī</item>
+        <item>bhāvaṅñā, bhavarogaghnī bhavacakra pravartinī</item>
+        <item>chandassārā, śāstrasārā, mantrasārā, talodarī</item>
+        <item>udārakīrti, ruddāmavaibhavā, varṇarūpiṇī</item>
+        <item>janmamṛtyu jarātapta jana viśrānti dāyinī</item>
+        <item>sarvopaniṣa dudghuṣṭā, śāntyatīta kaḷātmikā</item>
+        <item>gambhīrā, gaganāntaḥsthā, garvitā, gānalolupā</item>
+        <item>kalpanārahitā, kāṣṭhā, kāntā, kāntārdha vigrahā</item>
+        <item>kāryakāraṇa nirmuktā, kāmakeḷi taraṅgitā</item>
+        <item>kanat-kanakatāṭaṅkā, līlāvigraha dhāriṅī</item>
+        <item>ajākṅaya vinirmuktā, mugdhā kṅipraprasādinī</item>
+        <item>antarmukha samārādhyā, bahirmukha sudurlabhā</item>
+        <item>trayī, trivarga nilayā, tristhā, tripuramālinī</item>
+        <item>nirāmayā, nirālambā, svātmārāmā, sudhāsṅtiṅ</item>
+        <item>saṅsārapaṅka nirmagna samuddharaṅa paṅṅitā</item>
+        <item>yaṅñapriyā, yaṅñakartrī, yajamāna svarūpiṅī</item>
+        <item>dharmādhārā, dhanādhyakṅā, dhanadhānya vivardhinī</item>
+        <item>viprapriyā, viprarūpā, viśvabhramaṅa kāriṅī</item>
+        <item>viśvagrāsā, vidrumābhā, vaiṅṅavī, viṅṅurūpiṅī</item>
+        <item>ayoni, ryoninilayā, kūṅasthā, kularūpiṅī</item>
+        <item>vīragoṅṅhīpriyā, vīrā, naiṅkarmyā, nādarūpiṅī</item>
+        <item>viṅñāna kalanā, kalyā vidagdhā, baindavāsanā</item>
+        <item>tattvādhikā, tattvamayī, tattvamartha svarūpiṅī</item>
+        <item>sāmagānapriyā, saumyā, sadāśiva kuṅumbinī</item>
+        <item>savyāpasavya mārgasthā, sarvāpadvi nivāriṅī</item>
+        <item>svasthā, svabhāvamadhurā, dhīrā, dhīra samarcitā</item>
+        <item>caitanyārghya samārādhyā, caitanya kusumapriyā</item>
+        <item>sadoditā, sadātuṅṅā, taruṅāditya pāṅalā</item>
+        <item>dakṅiṅā, dakṅiṅārādhyā, darasmera mukhāmbujā</item>
+        <item>kauṅinī kevalā, narghyā kaivalya padadāyinī</item>
+        <item>stotrapriyā, stutimatī, śrutisaṅstuta vaibhavā</item>
+        <item>manasvinī, mānavatī, maheśī, maṅgaṅākṅtiṅ</item>
+        <item>viśvamātā, jagaddhātrī, viśālākṅī, virāgiṅī</item>
+        <item>pragalbhā, paramodārā, parāmodā, manomayī</item>
+        <item>vyomakeśī, vimānasthā, vajriṅī, vāmakeśvarī</item>
+        <item>pañcayaṅñapriyā, pañcapreta mañcādhiśāyinī</item>
+        <item>pañcamī, pañcabhūteśī, pañca saṅkhyopacāriṅī</item>
+        <item>śāśvatī, śāśvataiśvaryā, śarmadā, śambhumohinī</item>
+        <item>dharā, dharasutā, dhanyā, dharmiṅī, dharmavardhinī</item>
+        <item>lokātītā, guṅātītā, sarvātītā, śamātmikā</item>
+        <item>bandhūka kusuma prakhyā, bālā, līlāvinodinī</item>
+        <item>sumaṅgaṅī, sukhakarī, suveṅāṅyā, suvāsinī</item>
+        <item>suvāsinyarcanaprītā, śobhanā, śuddha mānasā</item>
+        <item>bindu tarpaṅa santuṅṅā, pūrvajā, tripurāmbikā</item>
+        <item>daśamudrā samārādhyā, tripurā śrīvaśaṅkarī</item>
+        <item>ṅñānamudrā, ṅñānagamyā, ṅñānaṅñeya svarūpiṅī</item>
+        <item>yonimudrā, trikhaṅṅeśī, triguṅāmbā, trikoṅagā</item>
+        <item>anaghādbhuta cāritrā, vāṅchitārtha pradāyinī</item>
+        <item>abhyāsāti śayaṅñātā, ṅaṅadhvātīta rūpiṅī</item>
+        <item>avyāja karuṅāmūrti, raṅñānadhvānta dīpikā</item>
+        <item>ābālagopa viditā, sarvānullaṅghya śāsanā</item>
+        <item>śrī cakrarājanilayā, śrīmattripura sundarī</item>
+        <item>śrī śivā, śivaśaktyaikya rūpiṅī, lalitāmbikā</item>
+    </string-array>
+
+</resources>

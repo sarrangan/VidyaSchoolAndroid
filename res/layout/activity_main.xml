@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devi.vidyaschool.MainActivity" >
+    <ListView
+        android:id="@+id/main_menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/gold_listview_divider" 
+        android:dividerHeight="1dp"
+        android:paddingTop="5dp">
+    </ListView>
+	<View android:layout_height="5dp"
+	    android:layout_width="match_parent"
+	    android:background="@color/gold_listview_divider"
+	    android:layout_gravity="top">
+	</View>
+</FrameLayout>

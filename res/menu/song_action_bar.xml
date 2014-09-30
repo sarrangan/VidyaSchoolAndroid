@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="idk.what.practise.MainActivity" >
+
+    <item
+        android:id="@+id/action_stop"
+        android:icon="@drawable/ic_action_stop"
+        android:showAsAction="always"
+        android:title="@string/action_stop"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_play"
+        android:icon="@drawable/ic_action_play"
+        android:showAsAction="always"
+        android:title="@string/action_play"
+        app:showAsAction="always"/>
+
+</menu>

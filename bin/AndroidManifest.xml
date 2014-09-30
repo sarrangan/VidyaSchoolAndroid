@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="devi.vidyaschool"
+    android:versionCode="2"
+    android:versionName="1.01" >
+
+    <style
+        name="AppTheme"
+        parent="android:Theme.Holo" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/oam3p"
+        android:label="@string/app_name"
+        android:testOnly="false"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="devi.vidyaschool.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="devi.vidyaschool.SongLearn"
+            android:label=""
+            android:launchMode="singleTask"
+            android:parentActivityName="devi.vidyaschool.MainActivity" >
+        </activity>
+    </application>
+
+</manifest>
