@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    <TextView
-        android:layout_height="wrap_content"
+
+    <devi.vidyaschool.widget.RobotoTextView
+        android:id="@+id/line_of_lyric_text"
         android:layout_width="match_parent"
-        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
         android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:textSize="25dp"
-        android:id="@+id/line_of_lyric_text">
-        
-    </TextView>
+        app:typeface="arial.ttf" >
+    </devi.vidyaschool.widget.RobotoTextView>
 
 </LinearLayout>

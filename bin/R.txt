@@ -114,6 +114,7 @@ int attr textAppearanceSmallPopupMenu 0x7f010015
 int attr textColorSearchUrl 0x7f010068
 int attr title 0x7f010025
 int attr titleTextStyle 0x7f01002a
+int attr typeface 0x7f01006e
 int attr windowActionBar 0x7f010000
 int attr windowActionBarOverlay 0x7f010001
 int attr windowFixedHeightMajor 0x7f010006
@@ -1160,6 +1161,8 @@ int styleable MenuView_android_itemTextAppearance 1
 int styleable MenuView_android_preserveIconSpacing 7
 int styleable MenuView_android_verticalDivider 3
 int styleable MenuView_android_windowAnimationStyle 0
+int[] styleable RobotoTextTypeFace { 0x7f01006e }
+int styleable RobotoTextTypeFace_typeface 0
 int[] styleable SearchView { 0x0101011f, 0x01010220, 0x01010264, 0x7f01005a, 0x7f01005b }
 int styleable SearchView_android_imeOptions 2
 int styleable SearchView_android_inputType 1
