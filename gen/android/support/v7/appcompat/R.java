@@ -136,11 +136,13 @@ public final class R {
 		public static final int abc_split_action_bar_is_narrow = 0x7f070002;
 	}
 	public static final class color {
-		public static final int abc_search_url_text_holo = 0x7f080004;
+		public static final int abc_search_url_text_holo = 0x7f080006;
 		public static final int abc_search_url_text_normal = 0x7f080000;
 		public static final int abc_search_url_text_pressed = 0x7f080002;
 		public static final int abc_search_url_text_selected = 0x7f080001;
 		public static final int gold_listview_divider = 0x7f080003;
+		public static final int light_gold = 0x7f080005;
+		public static final int white = 0x7f080004;
 	}
 	public static final class dimen {
 		public static final int abc_action_bar_default_height = 0x7f090002;
@@ -253,6 +255,8 @@ public final class R {
 		public static final int abc_textfield_searchview_holo_light = 0x7f020054;
 		public static final int abc_textfield_searchview_right_holo_dark = 0x7f020055;
 		public static final int abc_textfield_searchview_right_holo_light = 0x7f020056;
+		public static final int default_state = 0x7f02005f;
+		public static final int gold_state = 0x7f02005e;
 	}
 	public static final class id {
 		public static final int action_bar = 0x7f06001d;

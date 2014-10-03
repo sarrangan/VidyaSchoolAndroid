@@ -10,8 +10,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import devi.vidyaschool.R;
-
 class CustomAdapter extends BaseAdapter {
 
 	private static final int TYPE_ITEM = 0;
@@ -106,8 +104,25 @@ class CustomAdapter extends BaseAdapter {
 			holder = (ViewHolder) convertView.getTag();
 		}
 		holder.textView.setText(mData.get(position));
-
+		if(isSongLearn){
+		setBackgroundOnLyrics(position, convertView);
+		}
 		return convertView;
+	}
+
+	private void setBackgroundOnLyrics(final int position, View convertView) {
+		try{
+			SongLearn.audioFile.isPlaying();
+		}
+		catch(IllegalStateException e){
+			return;
+		}
+		if(SongLearn.adjustedPos(position) == SongLearn.selectedPos){
+			convertView.setBackgroundResource(R.color.gold_listview_divider);
+		}
+		else{
+			convertView.setBackgroundResource(R.drawable.lyrics_default);
+		}
 	}
 
 	public static class ViewHolder {

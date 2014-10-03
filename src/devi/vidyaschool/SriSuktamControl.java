@@ -26,7 +26,7 @@ public class SriSuktamControl {
 	
 	private void initializeAudio(){
 		audioLines = new ArrayList<String>();
-		for(int i = 0; i <= sriSuktamLyrics.size(); i++){
+		for(int i = 0; i < sriSuktamLyrics.size(); i++){
 			audioLines.add("sri_sooktam_" + i);
 		}
 	}

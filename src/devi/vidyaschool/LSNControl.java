@@ -26,7 +26,7 @@ public class LSNControl {
 	
 	private void initializeAudio(){
 		audioLines = new ArrayList<String>();
-		for(int i = 0; i <= lSNLyrics.size(); i++){
+		for(int i = 0; i < lSNLyrics.size(); i++){
 			audioLines.add("lsn_" + i);
 		}
 	}

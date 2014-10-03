@@ -12,6 +12,7 @@
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
         android:textSize="25dp"
+        android:background="@drawable/lyrics_default"
         app:typeface="arial.ttf" >
     </devi.vidyaschool.widget.RobotoTextView>
 

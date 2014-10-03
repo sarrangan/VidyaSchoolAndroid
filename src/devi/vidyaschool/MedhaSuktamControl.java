@@ -26,7 +26,7 @@ public class MedhaSuktamControl {
 	
 	private void initializeAudio(){
 		audioLines = new ArrayList<String>();
-		for(int i = 0; i <= medhaSuktamLyrics.size(); i++){
+		for(int i = 0; i < medhaSuktamLyrics.size(); i++){
 			audioLines.add("medha_suktam_" + i);
 		}
 	}
