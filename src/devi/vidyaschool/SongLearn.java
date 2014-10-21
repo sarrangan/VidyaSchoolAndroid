@@ -100,7 +100,6 @@ public class SongLearn extends ActionBarActivity {
 					playSong.cancel(true);
 				}
 				setDefaultBackgroundOnList(listView);
-				highlightSelectedItem(view);
 				startChant(adjustedPos(position));
 			}
 		});
@@ -254,6 +253,6 @@ public class SongLearn extends ActionBarActivity {
 	}
 	
 	private void highlightSelectedItem(View view){
-		view.setBackgroundResource(R.color.light_gold);
+		view.setBackgroundResource(R.color.selected_gold);
 	}
 }

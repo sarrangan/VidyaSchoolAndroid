@@ -115,10 +115,11 @@ class CustomAdapter extends BaseAdapter {
 			SongLearn.audioFile.isPlaying();
 		}
 		catch(IllegalStateException e){
+			convertView.setBackgroundResource(R.drawable.lyrics_default);
 			return;
 		}
 		if(SongLearn.adjustedPos(position) == SongLearn.selectedPos){
-			convertView.setBackgroundResource(R.color.gold_listview_divider);
+			convertView.setBackgroundResource(R.color.selected_gold);
 		}
 		else{
 			convertView.setBackgroundResource(R.drawable.lyrics_default);
