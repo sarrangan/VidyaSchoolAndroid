@@ -216,7 +216,7 @@ public class SongLearn extends ActionBarActivity {
 						@Override
 						public void run(){
 					final ListView listView = (ListView) findViewById(R.id.lines_of_song);
-					if(listView != null && listView.getChildAt(unAdjustPos(position)) != null){
+					if(listView != null){
 						setDefaultBackgroundOnList(listView);
 						for(int i = 0; i < listView.getChildCount(); i++){
 							if(((TextView)((LinearLayout)listView.getChildAt(i)).getChildAt(0)).getText().equals(lyricsList.get(position))){
