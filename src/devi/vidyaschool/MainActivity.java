@@ -26,8 +26,9 @@ public class MainActivity extends ActionBarActivity {
 	private SriSuktamControl sriSuktamControl;
 	private DurgaSuktamControl durgaSuktamControl;
 	private MedhaSuktamControl medhaSuktamControl;
+	private RudramControl rudramControl;
 	private LSNControl lsnControl;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -40,6 +41,7 @@ public class MainActivity extends ActionBarActivity {
 		durgaSuktamControl = new DurgaSuktamControl(this);
 		medhaSuktamControl = new MedhaSuktamControl(this);
 		lsnControl = new LSNControl(this);
+		rudramControl = new RudramControl(this);
 		setUpMainMenuItems();
 	}
 
@@ -135,6 +137,13 @@ public class MainActivity extends ActionBarActivity {
 					in.putExtra(AUDIO_TAG, medhaSuktamControl.getAudioList());
 					startActivity(in);
 				}
+				else if(menu_item_name == getString(R.string.rudram__namakam_title)){
+					Intent in = new Intent(getApplicationContext(), SongLearn.class);
+					in.putExtra(TITLE, getResources().getString(R.string.rudram__namakam_title));
+					in.putExtra(LYRICS_TAG, rudramControl.getLyrics());
+					in.putExtra(AUDIO_TAG, rudramControl.getAudioList());
+					startActivity(in);
+				}
 			}
 		});
 	}
@@ -149,6 +158,8 @@ public class MainActivity extends ActionBarActivity {
 		mAdapter.addItem(getString(R.string.medha_suktam_title));
 		mAdapter.addSectionHeaderItem("LSN");
 		mAdapter.addItem(getString(R.string.LSN_title));
+		mAdapter.addSectionHeaderItem("Rudram");
+		mAdapter.addItem(getString(R.string.rudram__namakam_title));
 	}
 
 	@Override

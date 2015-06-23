@@ -9,7 +9,7 @@
         parent="android:Theme.Holo" />
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="8"
         android:targetSdkVersion="21" />
 
     <application

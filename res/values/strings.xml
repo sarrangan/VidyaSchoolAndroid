@@ -14,6 +14,8 @@
     <string name="sri_suktam_title">Sri Suktam</string>
     <string name="medha_suktam_title">Medha Suktam</string>
     <string name="durga_suktam_title">Durga Suktam</string>
+    <string name="main_menu_rudram_title">Rudram</string>
+    <string name="rudram__namakam_title">Rudram Namakam</string>
 
     <!-- Neela Suktam Lyrics -->
     <string-array name="neela_suktam_lines_all">
@@ -323,7 +325,6 @@ namaha</item>
         <item>nirguṇā niṣkaḷā śāntā niṣkāmā nirupaplavā</item>
         <item>nityamuktā nirvikārā niṣprapañcā nirāśrayā</item>
         <item>nityaśuddhā nityabuddhā niravadyā nirantarā</item>
-        
         <item>niṣkāraṇā niṣkaḷaṅkā nirupādhi rnirīśvarā</item>
         <item>nīrāgā rāgamathanī nirmadā madanāśinī</item>
         <item>niścintā nirahaṅkārā nirmohā mohanāśinī</item>
@@ -334,7 +335,6 @@ namaha</item>
         <item>nirnāśā mṛtyumathanī niṣkriyā niṣparigrahā</item>
         <item>nistulā nīlacikurā nirapāyā niratyayā</item>
         <item>durlabhā durgamā durgā duḥkhahantrī sukhapradā</item>
-        
         <item>duṣṭadūrā durācāra śamanī doṣavarjitā</item>
         <item>sarvajñā sāndrakaruṇā samānādhika varjitā</item>
         <item>sarvaśaktimayī sarva maṅgaḷā sadgatipradā</item>
@@ -365,7 +365,6 @@ namaha</item>
         <item>sadāśivā nugrahadā pañcakṛtya parāyaṇā</item>
         <item>bhānumaṇḍala madhyasthā bhairavī bhagamālinī</item>
         <item>padmāsanā bhagavatī padmanābha sahodarī</item>
-        
         <item>unmeṣa nimiṣotpanna vipanna bhuvanāvaḷiḥ</item>
         <item>sahasra śīrṣavadanā sahasrākṣī sahasrapāt</item>
         <item>ābrahma kīṭa jananī varṇāśrama vidhāyinī</item>
@@ -376,7 +375,6 @@ namaha</item>
         <item>ambikānādi nidhanā haribrahmendra sevitā</item>
         <item>nārāyaṇī nādarūpā nāmarūpa vivarjitā</item>
         <item>hrīṅkārī hrīmatī hṛdyā heyopādeya varjitā</item>
-        
         <item>rājarājārcitā rājñī ramyā rājīvalocanā</item>
         <item>rañjanī ramaṇī rasyā raṇatkiṅkiṇi mekhalā</item>
         <item>ramā rākenduvadanā ratirūpā ratipriyā</item>
@@ -387,7 +385,6 @@ namaha</item>
         <item>varadā vāmanayanā vāruṇī mada vihvalā</item>
         <item>viśvādhikā vedavedyā vindhyācala nivāsinī</item>
         <item>vidhātrī vedajananī viṣṇumāyā vilāsinī</item>
-        
         <item>kṣetrasvarūpā kṣetreśī kṣetra kṣetrajña pālinī</item>
         <item>kṣayavṛddhi vinirmuktā kṣetrapāla samarcitā</item>
         <item>vijayā vimalā vandyā vandāru jana vatsalā</item>
@@ -398,7 +395,6 @@ namaha</item>
         <item>taruṇī tāpasārādhyā tanumadhyā tamo\'pahā</item>
         <item>citistatpada lakṣyārthā cidekarasa rūpiṇī</item>
         <item>svātmānanda lavībhūta brahmādyānanda santatiḥ</item>
-        
         <item>parā pratyakcitī rūpā paśyantī paradevatā</item>
         <item>madhyamā vaikharīrūpā bhaktamānasa haṃsikā</item>
         <item>kāmeśvara prāṇanāḍī kṛtajñā kāmapūjitā</item>
@@ -469,7 +465,6 @@ namaha</item>
         <item>mṛgākṣī mohinī mukhyā mṛḍānī mitrarūpiṇī</item>
         <item>nityatṛptā bhaktanidhir niyantrī nikhileśvarī</item>
         <item>maitryādi vāsanālabhyā mahāpraḷaya sākṣiṇī</item>
-        
         <item>parā śaktiḥ parā niṣṭhā prajñānaghana rūpiṇī</item>
         <item>mādhvīpānālasā mattā mātṛkā varṇa rūpiṇī</item>
         <item>mahākailāsa nilayā mṛṇāla mṛdu dorlatā</item>
@@ -480,7 +475,6 @@ namaha</item>
         <item>śiraḥsthitā candranibhā bhālasthendra dhanuḥprabhā</item>
         <item>hṛdayasthā raviprakhyā trikoṇāntara dīpikā</item>
         <item>dākṣāyaṇī daityahantrī dakṣayajña vināśinī</item>
-        
         <item>darāndoḷita dīrghākṣī dara hāsojjvalan mukhī</item>
         <item>gurumūrtir guṇanidhir gomātā guhajanmabhūḥ</item>
         <item>deveśī daṇḍanītisthā daharākāśa rūpiṇī</item>
@@ -501,7 +495,6 @@ namaha</item>
         <item>yoginī yogadā yogyā yogānandā yugandharā</item>
         <item>icchāśakti jñānaśakti kriyāśakti svarūpiṇī</item>
         <item>sarvadhārā supratiṣṭhā sadasadrūpa dhāriṇī</item>
-        
         <item>aṣṭamūrtir ajājaitrī lokayātrā vidhāyinī</item>
         <item>ekākinī bhūmarūpā nirdvaitā dvaitavarjitā</item>
         <item>annadā vasudā vṛddhā brahmātmaikya svarūpiṇī</item>
@@ -607,6 +600,224 @@ namaha</item>
         <item>ābāla gopa viditā sarvānullaṅghya śāsanā</item>
         <item>śrī cakrarāja nilayā śrīmat tripura sundarī</item>
         <item>śrī śivā śivaśaktyaikya rūpiṅī lalitāmbikā</item>
+    </string-array>
+    <string-array name="rudram_lines_all">
+        <item>oṃ namo bhagavate’ rudrāya</item>
+        <item>oṃ nama’ste rudra manyava’ utota iṣa’ve nama’ḥ</item>
+        <item>nama’ste astu dhanva’ne bāhubhyā’muta te nama’ḥ</item>
+        <item>yā ta iṣu’ḥ śivata’mā śivaṃ babhūva’ te dhanu’ḥ</item>
+        <item>śivā śa’ravyā’ yā tava tayā’ no rudra mṛḍaya</item>
+        <item>yā te’ rudra śivā tanūraghorāpā’pakāśinī</item>
+        <item>tayā’ nastanuvā śanta’mayā giri’śaṃtābhicā’kaśīhi</item>
+        <item>yāmiṣu’ṃ giriśaṃta haste bibharṣyasta’ve</item>
+        <item>śivāṃ gi’ritra tāṃ ku’ru mā hig’ṃsīḥ puru’ṣaṃ jaga’t</item>
+        <item>śivena vaca’sā tvā giriśācchā’vadāmasi</item>
+        <item>yathā’ naḥ sarvamijjaga’dayakṣmagṃ sumanā asa’t</item>
+        <item>adhya’vocadadhivaktā pra’thamo daivyo’ bhiṣak</item>
+        <item>ahīg’-śca sarvā”ṃjambhayantsarvā”śca yātudhānya’ḥ</item>
+        <item>asau yastāmro a’ruṇa uta babhruḥ su’maṅgaḷa’ḥ</item>
+        <item>ye cemāgṃ rudrā abhito’ dikṣu śritāḥ sa’hasraśovaiṣāgṃ heḍa’ īmahe</item>
+        <item>asau yo’vasarpa’ti nīla’grīvo vilo’hitaḥ</item>
+        <item>utaina’ṃ gopā a’dṛśannadṛ’śan-nudahārya’ḥ</item>
+        <item>utainaṃ viśvā’ bhūtāni sa dṛṣṭo mṛ’ḍayāti naḥ</item>
+        <item>namo’ astu nīla’grīvāya sahasrākṣāya mīḍhuṣe”</item>
+        <item>atho ye a’sya satvā’nohaṃ tebhyo’karannama’ḥ</item>
+        <item>pramu’ṃca dhanva’nastvamubhayorārtni’ yorjyām</item>
+        <item>yāśca te hasta iṣa’vaḥ parā tā bha’gavo vapa</item>
+        <item>avatatya dhanustvagṃ saha’srākṣa śate’ṣudhe</item>
+        <item>niśīrya’śalyānāṃ mukhā’ śivo na’ḥ sumanā’ bhava</item>
+        <item>vijyaṃ dhanu’ḥ kapardino viśa’lyo bāṇa’vāgm uta</item>
+        <item>ane’śan-nasyeṣa’va ābhura’sya niṣaṅgathi’ḥ</item>
+        <item>yā te’ hetir-mī’ḍuṣṭama haste’ babhūva’ te dhanu’ḥ</item>
+        <item>tayāsmān, viśvatas-tvama’yakṣmayā pari’bbhuja</item>
+        <item>nama’ste astvāyudhāyānā’tatāya dhṛṣṇave”</item>
+        <item>ubhābhyā’muta te namo’ bāhubhyāṃ tava dhanva’ne</item>
+        <item>pari’ te dhanva’no hetirasmān-vṛ’ṇaktu viśvata’ḥ</item>
+        <item>atho ya i’ṣudhistavāre asmannidhe’hi tam</item>
+        <item>nama’ste astu bhagavan-viśveśvarāya’ mahādevāya’</item>
+        <item>tryambakāya’ tripurāntakāya’</item>
+        <item>trikāgnikālāya’ kālāgnirudrāya’ nīlakaṇṭhāya’</item>
+        <item>mṛtyuṃjayāya’ sarveśva’rāya’</item>
+        <item>sadāśivāya’ śrīman-mahādevāya nama’ḥ</item>
+        <item>namo hira’ṇya bāhave senānye’</item>
+        <item>diśāṃ ca pata’ye namo namo’ vṛkṣebhyo hari’keśebhyaḥ paśūnāṃ</item>
+        <item>pata’ye namo nama’ḥ saspiñja’rāya tviṣī’mate pathīnāṃ</item>
+        <item>pata’ye namo namo’ babhluśāya’ vivyādhinennā’nāṃ</item>
+        <item>pata’ye namo namo hari’keśāyopavītine’ puṣṭānāṃ</item>
+        <item>pata’ye namo namo’ bhavasya’ hetyai jaga’tāṃ</item>
+        <item>pata’ye namo namo’ rudrāyā’tatāvine kṣetrā’ṇāṃ</item>
+        <item>pata’ye namo nama’ḥ sūtāyāha’ntyāya vanā’nāṃ</item>
+        <item>pata’ye namo namo rohi’tāya sthapata’ye vṛkṣāṇāṃ</item>
+        <item>pata’ye namo namo’ mantriṇe’ vāṇijāya kakṣā’ṇāṃ</item>
+        <item>pata’ye namo namo’ bhuvantaye’ vārivaskṛtā-yauṣa’dhīnāṃ</item>
+        <item>pata’ye namo nama’ uccair-gho’ṣāyākrandaya’te pattīnāṃ</item>
+        <item>pata’ye namo nama’ḥ kṛtsnavītāya dhāva’te sattva’nāṃ pata’ye nama’ḥ</item>
+        <item>namaḥ saha’mānāya nivyādhina’ āvyādhinī’nāṃ</item>
+        <item>pata’ye namo nama’ḥ kakubhāya’ niṣaṅgiṇe” stenānāṃ</item>
+        <item>pata’ye namo namo’ niṣaṅgiṇa’ iṣudhimate’ taska’rāṇāṃ</item>
+        <item>pata’ye namo namo vañca’te parivañca’te stāyūnāṃ</item>
+        <item>pata’ye namo namo’ nicerave’ paricarāyāra’ṇyānāṃ</item>
+        <item>pata’ye namo nama’ḥ sṛkāvibhyo jighāg’ṃsadbhyo muṣṇatāṃ</item>
+        <item>pata’ye namo namo’simadbhyo naktañcara’dbhyaḥ prakṛntānāṃ</item>
+        <item>pata’ye namo nama’ uṣṇīṣine’ giricarāya’ kuluñcānāṃ</item>
+        <item>pata’ye namo nama iṣu’madbhyo dhanvāvibhya’śca</item>
+        <item>vo namo nama’ ātanvānebhya’ḥ pratidadhā’nebhyaśca</item>
+        <item>vo namo nama’ āyaccha’dbhyo visṛjadbhya’śca</item>
+        <item>vo namo namossa’dbhyo vidya’dbhyaśca</item>
+        <item>vo namo nama āsī’nebhyaḥ śayā’nebhyaśca</item>
+        <item>vo namo nama’ḥ svapadbhyo jāgra’dbhyaśca</item>
+        <item>vo namo namastiṣṭha’dbhyo dhāva’dbhyaśca</item>
+        <item>vo namo nama’ḥ sabhābhya’ḥ sabhāpa’tibhyaśca</item>
+        <item>vo namo namo aśvebhyośva’patibhyaśca vo nama’ḥ</item>
+        <item>nama’ āvyādhinī”bhyo vividhya’ntībhyaśca</item>
+        <item>vo namo nama uga’ṇābhyastṛgaṃ-hatībhyaśca’</item>
+        <item>vo namo namo’ gṛtsebhyo’ gṛtsapa’tibhyaśca</item>
+        <item>vo namo namo vrāte”bhyo vrāta’patibhyaśca</item>
+        <item>vo namo namo’ gaṇebhyo’ gaṇapa’tibhyaśca</item>
+        <item>vo namo namo virū’pebhyo viśvarū’pebhyaśca</item>
+        <item>vo namo namo’ mahadbhya’ḥ, kṣullakebhya’śca</item>
+        <item>vo namo namo’ rathibhyorathebhya’śca</item>
+        <item>vo namo namo rathe”bhyo ratha’patibhyaśca</item>
+        <item>vo namo nama’ḥ senā”bhyaḥ senānibhya’śca</item>
+        <item>vo namo nama’ḥ, kṣattṛbhya’ḥ saṅgrahītṛbhya’śca</item>
+        <item>vo namo namastakṣa’bhyo rathakārebhya’śca</item>
+        <item>vo namo namaḥ kulā’lebhyaḥ karmāre”bhyaśca</item>
+        <item>vo namo nama’ḥ puñjiṣṭe”bhyo niṣādebhya’śca</item>
+        <item>vo namo nama’ḥ iṣukṛdbhyo’ dhanvakṛd-bhya’śca</item>
+        <item>vo namo namo’ mṛgayubhya’ḥ śvanibhya’śca</item>
+        <item>vo namo namaḥ śvabhyaḥ śvapa’tibhyaśca vo nama’ḥ</item>
+        <item>namo’ bhavāya’ ca rudrāya’ ca</item>
+        <item>nama’ḥ śarvāya’ ca</item>
+        <item>paśupata’ye ca namo nīla</item>
+        <item>grīvāya ca śitikaṇṭhā’ya ca nama’ḥ kapardhine’</item>
+        <item>ca vyu’ptakeśāya</item>
+        <item>ca nama’ḥ sahasrākṣāya’ ca śatadha’nvane</item>
+        <item>ca namo’ giriśāya’ ca śipiviṣṭāya’</item>
+        <item>ca namo’ mīḍhuṣṭa’māya ceṣu’mate</item>
+        <item>ca namo” hrasvāya’ ca vāmanāya’</item>
+        <item>ca namo’ bṛhate ca varṣī’yase</item>
+        <item>ca namo’ vṛddhāya’ ca saṃvṛdhva’ne</item>
+        <item>ca namo agri’yāya ca prathamāya’</item>
+        <item>ca nama’ āśave’ cājirāya’</item>
+        <item>ca namaḥ śīghri’yāya ca śībhyā’ya</item>
+        <item>ca nama’ ūrmyā’ya cāvasvanyā’ya</item>
+        <item>ca nama’ḥ strotasyā’ya ca dvīpyā’ya ca</item>
+        <item>namo” jyeṣṭhāya’ ca kaniṣṭhāya’ ca nama’ḥ</item>
+        <item>pūrvajāya’ cāparajāya’ ca namo’</item>
+        <item>madhyamāya’ cāpagalbhāya’ ca namo’</item>
+        <item>jaghanyā’ya ca budhni’yāya ca nama’ḥ</item>
+        <item>sobhyā’ya ca pratisaryā’ya ca namo</item>
+        <item>yāmyā’ya ca kṣemyā’ya ca nama’</item>
+        <item>urvaryā’ya ca khalyā’ya ca namaḥ</item>
+        <item>ślokyā’ya cāvasānyā’ya ca namo</item>
+        <item>vanyā’ya ca kakṣyā’ya ca nama’ḥ</item>
+        <item>śravāya’ ca pratiśravāya’ ca nama’</item>
+        <item>āśuṣe’ṇāya cāśura’thāya ca namaḥ</item>
+        <item>śūrā’ya cāvabhindate ca namo’</item>
+        <item>varmiṇe’ ca varūdhine’ ca namo’</item>
+        <item>bilmine’ ca kavacine’ ca nama’ḥ</item>
+        <item>śrutāya’ ca śrutase’nāya ca </item>
+        <item>namo’ duṃdubhyā’ya cāhananyā’ya ca namo’</item>
+        <item>dhṛṣṇave’ ca pramṛśāya’ ca namo’</item>
+        <item>dūtāya’ ca prahi’tāya ca namo’</item>
+        <item>niṣaṅgiṇe’ ceṣudhimate’ ca nama’s</item>
+        <item>tīkṣṇeṣa’ve cāyudhine’ ca nama’ḥ</item>
+        <item>svāyudhāya’ ca sudhanva’ne ca namaḥ</item>
+        <item>srutyā’ya ca pathyā’ya ca nama’ḥ</item>
+        <item>kāṭyā’ya ca nīpyā’ya ca namaḥ</item>
+        <item>sūdyā’ya ca sarasyā’ya ca namo’</item>
+        <item>nādyāya’ ca vaiśantāya’ ca namaḥ</item>
+        <item>kūpyā’ya cāvaṭyā’ya ca namo</item>
+        <item>varṣyā’ya cāvarṣyāya’ ca namo’</item>
+        <item>meghyā’ya ca vidyutyā’ya ca nama</item>
+        <item>īdhriyā’ya cātapyā’ya ca namo</item>
+        <item>vātyā’ya ca reṣmi’yāya ca namo’</item>
+        <item>vāstavyā’ya ca vāstupāya’ ca</item>
+        <item>namaḥ somā’ya ca rudrāya’ ca nama’</item>
+        <item>stāmrāya’ cāruṇāya’ ca nama’ḥ</item>
+        <item>śaṅgāya’ ca paśupata’ye ca nama’</item>
+        <item>ugrāya\’ ca bhīmāya\’ ca namo\’</item>
+        <item>agrevadhāya’ ca dūrevadhāya’ ca namo’</item>
+        <item>hantre ca hanī’yase</item>
+        <item>ca namo\’ vṛkṣebhyo hari\’ keśebhyo nama\’</item>
+        <item>stārāya nama’śśambhave’ ca mayobhave’ ca nama’ḥ</item>
+        <item>śaṃkarāya’ ca mayaskarāya’ ca nama’ḥ</item>
+        <item>śivāya’ ca śivata’rāya ca nama</item>
+        <item>stīrthyā’ya ca kūlyā’ya ca nama’ḥ</item>
+        <item>pāryā’ya cāvāryā’ya ca nama’ḥ</item>
+        <item>pratara’ṇāya cottara’ṇāya ca nama’</item>
+        <item>ātāryā’ya cālādyā’ya ca namaḥ</item>
+        <item>śaṣpyā’ya ca phenyā’ya ca nama’ḥ</item>
+        <item>sikatyā’ya ca pravāhyā’ya ca </item>
+        <item>nama’ iriṇyā’ya ca prapathyā’ya ca nama’ḥ</item>
+        <item>kigṃśilāya’ ca kṣaya’ṇāya ca nama’ḥ</item>
+        <item>kapardine’ ca pulastaye’ ca namo</item>
+        <item>goṣṭhyā’ya ca gṛhyā’ya ca namas</item>
+        <item>talpyā’ya ca gehyā’ya ca nama’ḥ</item>
+        <item>kāṭyā’ya ca gahvareṣṭhāya’ ca namo”</item>
+        <item>hṛdayyā’ya ca niveṣpyā’ya ca nama’ḥ</item>
+        <item>pāgṃ savyā’ya ca rajasyā’ya ca namaḥ</item>
+        <item>śuṣkyā’ya ca harityā’ya ca namo</item>
+        <item>lopyā’ya colapyā’ya ca nama’</item>
+        <item>ūrmyā’ya ca sūrmyā’ya ca nama’ḥ</item>
+        <item>parṇyāya ca parṇaśadyā’ya ca namo’</item>
+        <item>paguramā’ṇāya cābhighnate ca nama’</item>
+        <item>ākhkhidate ca prakhkhidate ca namo’</item>
+        <item>vaḥ kirikebhyo’ devānāgṃ hṛda’ye</item>
+        <item>bhyo namo’ vikṣīṇakebhyo namo’ vicinvat-ke</item>
+        <item>bhyo nama’ ānir hate</item>
+        <item>bhyo nama’ āmīvat-kebhya’ḥ</item>
+        <item>drāpe andha’saspate dari’dran-nīla’lohita</item>
+        <item>eṣāṃ puru’ṣāṇāmeṣāṃ pa’śūnāṃ mā bhermāro mo e’ṣāṃ kiṃcanāma’mat</item>
+        <item>yā te’ rudra śivā tanūḥ śivā viśvāha’bheṣajī</item>
+        <item>śivā rudrasya’ bheṣajī tayā’ no mṛḍa jīvase”</item>
+        <item>imāgṃ rudrāya’ tavase’ kapardine” kṣayadvī’rāya prabha’rāmahe matim</item>
+        <item>yathā’ naḥ śamasa’d dvipade catu’ṣpade viśva’ṃ puṣṭaṃ grāme’ asminnanā’turam</item>
+        <item>mṛḍā no’ rudrota no maya’skṛdhi kṣayadvī’rāya nama’sā vidhema te</item>
+        <item>yacchaṃ ca yośca manu’rāyaje pitā tada’śyāma tava’ rudra praṇī’tau</item>
+        <item>mā no’ mahānta’muta mā no’ arbhakaṃ mā na ukṣa’ntamuta mā na’ ukṣitam</item>
+        <item>mā no’vadhīḥ pitaraṃ mota mātara’ṃ priyā mā na’stanuvo’ rudra rīriṣaḥ</item>
+        <item>mā na’stoke tana’ye mā na āyu’ṣi mā no goṣu mā no aśve’ṣu rīriṣaḥ</item>
+        <item>vīrānmā no’ rudra bhāmitova’dhīr-haviṣma’nto nama’sā vidhema te</item>
+        <item>ārātte’ goghna uta pū’ruṣaghne kṣayadvī’rāya sumnamasme te’ astu</item>
+        <item>rakṣā’ ca no adhi’ ca deva brūhyathā’ ca naḥ śarma’ yaccha dvibarhā”ḥ</item>
+        <item>stuhi śrutaṃ ga’rtasadaṃ yuvā’naṃ mṛganna bhīmamu’pahantumugram</item>
+        <item>mṛḍā ja’ritre ru’dra stavā’no anyante’ asmanniva’pantu senā”ḥ</item>
+        <item>pari’ṇo rudrasya’ hetir-vṛ’ṇaktu pari’ tveṣasya’ durmati ra’ghāyoḥ</item>
+        <item>ava’ sthirā maghava’d-bhyastanuṣva mīḍh-va’stokāya tana’yāya mṛḍaya</item>
+        <item>mīḍhu’ṣṭama śiva’mata śivo na’ḥ sumanā’ bhava</item>
+        <item>parame vṛkṣa āyu’dhannidhāya kṛttiṃ vasā’na āca’ra pinā’kaṃ bibhradāga’hi </item>
+        <item>viki’rida vilo’hita nama’ste astu bhagavaḥ</item>
+        <item>yāste’ sahasrag’ṃ hetayonyamasman-nivapantu tāḥ</item>
+        <item>sahasrā’ṇi sahasradhā bā’huvostava’ hetaya’ḥ</item>
+        <item>tāsāmīśā’no bhagavaḥ parācīnā mukhā’ kṛdhi</item>
+        <item>sahasrā’ṇi sahasraśo ye rudrā adhi bhūmyā”m</item>
+        <item>teṣāg’ṃ sahasrayojanevadhanvā’ni tanmasi</item>
+        <item>asmin-ma’hatya’rṇave”ntari’kṣe bhavā adhi’</item>
+        <item>nīla’grīvāḥ śitikaṇṭhā”ḥ śarvā adhaḥ, kṣa’mācarāḥ</item>
+        <item>nīla’grīvāḥ śitikaṇṭhā divag’ṃ rudrā upa’śritāḥ</item>
+        <item>ye vṛkṣeṣu’ saspiñja’rā nīla’grīvā vilo’hitāḥ</item>
+        <item>ye bhūtānām-adhi’patayo viśikhāsa’ḥ kapardi’naḥ</item>
+        <item>ye anne’ṣu vividhya’nti pātre’ṣu piba’to janān’</item>
+        <item>ye pathāṃ pa’thirakṣa’ya ailabṛdā’ yavyudha’ḥ</item>
+        <item>ye tīrthāni’ pracara’nti sṛkāva’nto niṣaṅgiṇa’ḥ</item>
+        <item>ya etāva’ntaśca bhūyāg’ṃsaśca diśo’ rudrā vi’tasthire</item>
+        <item>teṣāg’ṃ sahasrayojanevadhanvā’ni tanmasi</item>
+        <item>namo’ rudhrebhyo ye pṛ’thivyāṃ</item>
+        <item>ye”ntari’kṣe ye divi yeṣāmannaṃ</item>
+        <item>vāto’ var-ṣamiṣa’vas-tebhyo daśa </item>
+        <item>prācīrdaśa’ dakṣiṇā daśa’ </item>
+        <item>pratīcīrdaśo-dī’cīr-daśordhvās-tebhyo</item>
+        <item>namaste no’ mṛḍayantu te yaṃ</item>
+        <item>dviṣmo yaśca’ no dveṣṭi taṃ vo jambhe’ dadhāmi</item>
+        <item>trya’mbakaṃ yajāmahe sugandhiṃ pu’ṣṭivardha’nam</item>
+        <item>urvārukami’va bandha’nān-mṛtyo’r-mukṣīya māmṛtā”t</item>
+        <item>yo rudro agnau yo apsu ya oṣa’dhīṣu yo rudro viśvā bhuva’nā viveśa tasmai’ rudrāya namo’ astu</item>
+        <item>ye te’ sahasra’mayutaṃ pāśā mṛtyo martyā’ya hanta’ve</item>
+        <item>tān yaṅñasya’ māyayā sarvānava’ yajāmahe</item>
+        <item>mṛtyave svāhā’ mṛtyave svāhā”</item>
+        <item>prāṇānāṃ granthirasi rudro mā’ viśāntakaḥ</item>
+        <item>tenānnenā”pyāyasva</item>
     </string-array>
 
 </resources>

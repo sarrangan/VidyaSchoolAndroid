@@ -10,10 +10,12 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
@@ -25,6 +27,7 @@ import android.widget.Toast;
 import devi.vidyaschool.R;
 
 public class SongLearn extends ActionBarActivity {
+	private static final String LIST_INSTANCE_STATE = "LIST_INSTANCE_STATE";
 	private final String LYRICS_TAG = "lyrical";
 	static public MediaPlayer audioFile;
 	static public int selectedPos = -1;
@@ -34,6 +37,7 @@ public class SongLearn extends ActionBarActivity {
 	private String title;
 	private AsyncTask<Void, Void, Void> playSong;
 	private static boolean isReleased = true;
+	private Bundle mListInstanceState;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +45,17 @@ public class SongLearn extends ActionBarActivity {
 		setContentView(R.layout.lyrics_list);
 		setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		setupScreen();
+	    if(savedInstanceState!=null) {
+			ListView listView = (ListView) findViewById(R.id.lines_of_song);
+			listView.onRestoreInstanceState(savedInstanceState.getParcelable(LIST_INSTANCE_STATE));
+	    }
+	}
+	
+	@Override 
+	public void onSaveInstanceState(Bundle outState){
+		ListView listView = (ListView) findViewById(R.id.lines_of_song);
+		super.onSaveInstanceState(outState);
+		outState.putParcelable(LIST_INSTANCE_STATE, listView.onSaveInstanceState());
 	}
 
 	private void setupScreen() {
@@ -53,7 +68,7 @@ public class SongLearn extends ActionBarActivity {
 		initializeListView(lyricsList);
 		initAudio();
 	}
-	
+
 	@Override
 	protected void onNewIntent(Intent intent) {
 		super.onNewIntent(intent);
@@ -62,13 +77,13 @@ public class SongLearn extends ActionBarActivity {
 		final ListView listView = (ListView) findViewById(R.id.lines_of_song);
 		setDefaultBackgroundOnList(listView);
 	}
-	
+
 	private void initAudio() {
-		if(audioFile != null){
+		if (audioFile != null) {
 			stopChants();
 		}
-		int resource = getResources().getIdentifier(audioList.get(0),
-				"raw", "devi.vidyaschool");
+		int resource = getResources().getIdentifier(audioList.get(0), "raw",
+				"devi.vidyaschool");
 		audioFile = MediaPlayer.create(this, resource);
 	}
 
@@ -77,12 +92,12 @@ public class SongLearn extends ActionBarActivity {
 		mAdapter = new CustomAdapter(this, true);
 		ArrayList<HashMap<String, String>> lyrics = new ArrayList<HashMap<String, String>>();
 		for (int i = 0; i < suktam_lyrics.size(); i++) {
-			if(i%10 == 0 && i != 0){
+			if (i % 10 == 0 && i != 0) {
 				mAdapter.addSectionHeaderItem("Line " + i);
 			}
 			mAdapter.addItem(suktam_lyrics.get(i));
 		}
-		
+
 		listView.setAdapter(mAdapter);
 		listView.setOnItemClickListener(new OnItemClickListener() {
 
@@ -103,17 +118,18 @@ public class SongLearn extends ActionBarActivity {
 				startChant(adjustedPos(position));
 			}
 		});
-		listView.setOnItemLongClickListener (new OnItemLongClickListener() {
-			  public boolean onItemLongClick(AdapterView parent, View view, int position, long id) {
-			    if(playSong != null){
-			    	playSong.cancel(true);
-			    }
+		listView.setOnItemLongClickListener(new OnItemLongClickListener() {
+			public boolean onItemLongClick(AdapterView parent, View view,
+					int position, long id) {
+				if (playSong != null) {
+					playSong.cancel(true);
+				}
 				setDefaultBackgroundOnList(listView);
 				highlightSelectedItem(view);
-			    startChantWithLooping(adjustedPos(position));
-				  return true;
-			  }
-			});
+				startChantWithLooping(adjustedPos(position));
+				return true;
+			}
+		});
 	}
 
 	private void startChant(int position) {
@@ -125,7 +141,7 @@ public class SongLearn extends ActionBarActivity {
 		audioFile.start();
 		isReleased = false;
 	}
-	
+
 	private void startChantWithLooping(int position) {
 		selectedPos = position;
 		stopChants();
@@ -138,11 +154,11 @@ public class SongLearn extends ActionBarActivity {
 	}
 
 	private void stopChants() {
-		if(!isReleased){
-		audioFile.stop();
-		audioFile.reset();
-		audioFile.release();
-		isReleased = true;
+		if (!isReleased) {
+			audioFile.stop();
+			audioFile.reset();
+			audioFile.release();
+			isReleased = true;
 		}
 	}
 
@@ -165,13 +181,12 @@ public class SongLearn extends ActionBarActivity {
 			}
 			stopChants();
 			playSong = new playAll(this).execute();
-		}
-		else if(id == R.id.action_stop){
-			if(playSong != null){
+		} else if (id == R.id.action_stop) {
+			if (playSong != null) {
 				playSong.cancel(true);
 			}
 			final ListView listView = (ListView) findViewById(R.id.lines_of_song);
-			if(listView!=null){
+			if (listView != null) {
 				setDefaultBackgroundOnList(listView);
 			}
 			stopChants();
@@ -203,32 +218,45 @@ public class SongLearn extends ActionBarActivity {
 		private int position;
 
 		public playAll(Activity activity) {
-			position = 0;
+			position = SongLearn.selectedPos >= 0 ? SongLearn.selectedPos : 0;
 			this.activity = activity;
 		}
 
 		@Override
 		protected Void doInBackground(Void... params) {
-			while (!isCancelled() && position < audioList.size()) {		
+			while (!isCancelled() && position < audioList.size()) {
 				if (isReleased || !audioFile.isPlaying()) {
 					startChant(position);
 					runOnUiThread(new Runnable() {
 						@Override
-						public void run(){
-					final ListView listView = (ListView) findViewById(R.id.lines_of_song);
-					if(listView != null){
-						setDefaultBackgroundOnList(listView);
-						for(int i = 0; i < listView.getChildCount(); i++){
-							if(((TextView)((LinearLayout)listView.getChildAt(i)).getChildAt(0)).getText().equals(lyricsList.get(position))){
-							highlightSelectedItem(listView.getChildAt(i));
+						public void run() {
+							final ListView listView = (ListView) findViewById(R.id.lines_of_song);
+							if (listView != null) {
+								setDefaultBackgroundOnList(listView);
+								for (int i = 0; i < listView.getChildCount(); i++) {
+									if (((TextView) ((LinearLayout) listView
+											.getChildAt(i)).getChildAt(0))
+											.getText().equals(
+													lyricsList.get(position))) {
+										highlightSelectedItem(listView
+												.getChildAt(i));
+									}
+								}
 							}
-						}
-					}
-					position++;
+							position++;
 						}
 					});
 				}
 			}
+			runOnUiThread(new Runnable() {
+				@Override
+				public void run() {
+					final ListView listView = (ListView) findViewById(R.id.lines_of_song);
+					if (listView != null) {
+						setDefaultBackgroundOnList(listView);
+					}
+				}
+			});
 			return null;
 		}
 
@@ -237,22 +265,22 @@ public class SongLearn extends ActionBarActivity {
 			position = 0;
 		}
 	}
-	
-	static public int adjustedPos(int position){
-		return position -= (int)(position / 11);
+
+	static public int adjustedPos(int position) {
+		return position -= (int) (position / 11);
 	}
-	
-	public int unAdjustPos(int position){
-		return position += (int)(position / 11);
+
+	public int unAdjustPos(int position) {
+		return position += (int) (position / 11);
 	}
-	
-	private void setDefaultBackgroundOnList(ListView view){
-		for(int i = 0; i < view.getChildCount(); i ++){
-			view.getChildAt(i).setBackgroundResource(R.drawable.lyrics_default);			
+
+	private void setDefaultBackgroundOnList(ListView view) {
+		for (int i = 0; i < view.getChildCount(); i++) {
+			view.getChildAt(i).setBackgroundResource(R.drawable.lyrics_default);
 		}
 	}
-	
-	private void highlightSelectedItem(View view){
+
+	private void highlightSelectedItem(View view) {
 		view.setBackgroundResource(R.color.selected_gold);
 	}
 }

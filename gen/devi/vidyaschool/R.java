@@ -15,6 +15,10 @@ public final class R {
         public static final int abc_slide_in_top=0x7f040003;
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
+        public static final int anim_slide_in_left=0x7f040006;
+        public static final int anim_slide_in_right=0x7f040007;
+        public static final int anim_slide_out_left=0x7f040008;
+        public static final int anim_slide_out_right=0x7f040009;
     }
     public static final class array {
         /**  Durga Suktam Lyrics 
@@ -31,6 +35,7 @@ public final class R {
         /**  Purusha Suktam Lyrics 
          */
         public static final int purusha_suktam_lines_all=0x7f0d0003;
+        public static final int rudram_lines_all=0x7f0d0007;
         /**  Sri Suktam 
          */
         public static final int sri_suktam_lines_all=0x7f0d0005;
@@ -768,14 +773,6 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int titleTextStyle=0x7f01002a;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int typeface=0x7f01006e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1780,38 +1777,254 @@ containing a value of this type.
         public static final int purusha_suktam97=0x7f050210;
         public static final int purusha_suktam98=0x7f050211;
         public static final int purusha_suktam99=0x7f050212;
-        public static final int sri_sooktam_0=0x7f050213;
-        public static final int sri_sooktam_1=0x7f050214;
-        public static final int sri_sooktam_10=0x7f050215;
-        public static final int sri_sooktam_11=0x7f050216;
-        public static final int sri_sooktam_12=0x7f050217;
-        public static final int sri_sooktam_13=0x7f050218;
-        public static final int sri_sooktam_14=0x7f050219;
-        public static final int sri_sooktam_15=0x7f05021a;
-        public static final int sri_sooktam_16=0x7f05021b;
-        public static final int sri_sooktam_17=0x7f05021c;
-        public static final int sri_sooktam_18=0x7f05021d;
-        public static final int sri_sooktam_19=0x7f05021e;
-        public static final int sri_sooktam_2=0x7f05021f;
-        public static final int sri_sooktam_20=0x7f050220;
-        public static final int sri_sooktam_21=0x7f050221;
-        public static final int sri_sooktam_22=0x7f050222;
-        public static final int sri_sooktam_23=0x7f050223;
-        public static final int sri_sooktam_24=0x7f050224;
-        public static final int sri_sooktam_25=0x7f050225;
-        public static final int sri_sooktam_26=0x7f050226;
-        public static final int sri_sooktam_27=0x7f050227;
-        public static final int sri_sooktam_28=0x7f050228;
-        public static final int sri_sooktam_29=0x7f050229;
-        public static final int sri_sooktam_3=0x7f05022a;
-        public static final int sri_sooktam_30=0x7f05022b;
-        public static final int sri_sooktam_31=0x7f05022c;
-        public static final int sri_sooktam_4=0x7f05022d;
-        public static final int sri_sooktam_5=0x7f05022e;
-        public static final int sri_sooktam_6=0x7f05022f;
-        public static final int sri_sooktam_7=0x7f050230;
-        public static final int sri_sooktam_8=0x7f050231;
-        public static final int sri_sooktam_9=0x7f050232;
+        public static final int rudram_0=0x7f050213;
+        public static final int rudram_1=0x7f050214;
+        public static final int rudram_10=0x7f050215;
+        public static final int rudram_100=0x7f050216;
+        public static final int rudram_101=0x7f050217;
+        public static final int rudram_102=0x7f050218;
+        public static final int rudram_103=0x7f050219;
+        public static final int rudram_104=0x7f05021a;
+        public static final int rudram_105=0x7f05021b;
+        public static final int rudram_106=0x7f05021c;
+        public static final int rudram_107=0x7f05021d;
+        public static final int rudram_108=0x7f05021e;
+        public static final int rudram_109=0x7f05021f;
+        public static final int rudram_11=0x7f050220;
+        public static final int rudram_110=0x7f050221;
+        public static final int rudram_111=0x7f050222;
+        public static final int rudram_112=0x7f050223;
+        public static final int rudram_113=0x7f050224;
+        public static final int rudram_114=0x7f050225;
+        public static final int rudram_115=0x7f050226;
+        public static final int rudram_116=0x7f050227;
+        public static final int rudram_117=0x7f050228;
+        public static final int rudram_118=0x7f050229;
+        public static final int rudram_119=0x7f05022a;
+        public static final int rudram_12=0x7f05022b;
+        public static final int rudram_120=0x7f05022c;
+        public static final int rudram_121=0x7f05022d;
+        public static final int rudram_122=0x7f05022e;
+        public static final int rudram_123=0x7f05022f;
+        public static final int rudram_124=0x7f050230;
+        public static final int rudram_125=0x7f050231;
+        public static final int rudram_126=0x7f050232;
+        public static final int rudram_127=0x7f050233;
+        public static final int rudram_128=0x7f050234;
+        public static final int rudram_129=0x7f050235;
+        public static final int rudram_13=0x7f050236;
+        public static final int rudram_130=0x7f050237;
+        public static final int rudram_131=0x7f050238;
+        public static final int rudram_132=0x7f050239;
+        public static final int rudram_133=0x7f05023a;
+        public static final int rudram_134=0x7f05023b;
+        public static final int rudram_135=0x7f05023c;
+        public static final int rudram_136=0x7f05023d;
+        public static final int rudram_137=0x7f05023e;
+        public static final int rudram_138=0x7f05023f;
+        public static final int rudram_139=0x7f050240;
+        public static final int rudram_14=0x7f050241;
+        public static final int rudram_140=0x7f050242;
+        public static final int rudram_141=0x7f050243;
+        public static final int rudram_142=0x7f050244;
+        public static final int rudram_143=0x7f050245;
+        public static final int rudram_144=0x7f050246;
+        public static final int rudram_145=0x7f050247;
+        public static final int rudram_146=0x7f050248;
+        public static final int rudram_147=0x7f050249;
+        public static final int rudram_148=0x7f05024a;
+        public static final int rudram_149=0x7f05024b;
+        public static final int rudram_15=0x7f05024c;
+        public static final int rudram_150=0x7f05024d;
+        public static final int rudram_151=0x7f05024e;
+        public static final int rudram_152=0x7f05024f;
+        public static final int rudram_153=0x7f050250;
+        public static final int rudram_154=0x7f050251;
+        public static final int rudram_155=0x7f050252;
+        public static final int rudram_156=0x7f050253;
+        public static final int rudram_157=0x7f050254;
+        public static final int rudram_158=0x7f050255;
+        public static final int rudram_159=0x7f050256;
+        public static final int rudram_16=0x7f050257;
+        public static final int rudram_160=0x7f050258;
+        public static final int rudram_161=0x7f050259;
+        public static final int rudram_162=0x7f05025a;
+        public static final int rudram_163=0x7f05025b;
+        public static final int rudram_164=0x7f05025c;
+        public static final int rudram_165=0x7f05025d;
+        public static final int rudram_166=0x7f05025e;
+        public static final int rudram_167=0x7f05025f;
+        public static final int rudram_168=0x7f050260;
+        public static final int rudram_169=0x7f050261;
+        public static final int rudram_17=0x7f050262;
+        public static final int rudram_170=0x7f050263;
+        public static final int rudram_171=0x7f050264;
+        public static final int rudram_172=0x7f050265;
+        public static final int rudram_173=0x7f050266;
+        public static final int rudram_174=0x7f050267;
+        public static final int rudram_175=0x7f050268;
+        public static final int rudram_176=0x7f050269;
+        public static final int rudram_177=0x7f05026a;
+        public static final int rudram_178=0x7f05026b;
+        public static final int rudram_179=0x7f05026c;
+        public static final int rudram_18=0x7f05026d;
+        public static final int rudram_180=0x7f05026e;
+        public static final int rudram_181=0x7f05026f;
+        public static final int rudram_182=0x7f050270;
+        public static final int rudram_183=0x7f050271;
+        public static final int rudram_184=0x7f050272;
+        public static final int rudram_185=0x7f050273;
+        public static final int rudram_186=0x7f050274;
+        public static final int rudram_187=0x7f050275;
+        public static final int rudram_188=0x7f050276;
+        public static final int rudram_189=0x7f050277;
+        public static final int rudram_19=0x7f050278;
+        public static final int rudram_190=0x7f050279;
+        public static final int rudram_191=0x7f05027a;
+        public static final int rudram_192=0x7f05027b;
+        public static final int rudram_193=0x7f05027c;
+        public static final int rudram_194=0x7f05027d;
+        public static final int rudram_195=0x7f05027e;
+        public static final int rudram_196=0x7f05027f;
+        public static final int rudram_197=0x7f050280;
+        public static final int rudram_198=0x7f050281;
+        public static final int rudram_199=0x7f050282;
+        public static final int rudram_2=0x7f050283;
+        public static final int rudram_20=0x7f050284;
+        public static final int rudram_200=0x7f050285;
+        public static final int rudram_201=0x7f050286;
+        public static final int rudram_202=0x7f050287;
+        public static final int rudram_203=0x7f050288;
+        public static final int rudram_204=0x7f050289;
+        public static final int rudram_205=0x7f05028a;
+        public static final int rudram_206=0x7f05028b;
+        public static final int rudram_207=0x7f05028c;
+        public static final int rudram_208=0x7f05028d;
+        public static final int rudram_209=0x7f05028e;
+        public static final int rudram_21=0x7f05028f;
+        public static final int rudram_210=0x7f050290;
+        public static final int rudram_211=0x7f050291;
+        public static final int rudram_212=0x7f050292;
+        public static final int rudram_213=0x7f050293;
+        public static final int rudram_214=0x7f050294;
+        public static final int rudram_215=0x7f050295;
+        public static final int rudram_22=0x7f050296;
+        public static final int rudram_23=0x7f050297;
+        public static final int rudram_24=0x7f050298;
+        public static final int rudram_25=0x7f050299;
+        public static final int rudram_26=0x7f05029a;
+        public static final int rudram_27=0x7f05029b;
+        public static final int rudram_28=0x7f05029c;
+        public static final int rudram_29=0x7f05029d;
+        public static final int rudram_3=0x7f05029e;
+        public static final int rudram_30=0x7f05029f;
+        public static final int rudram_31=0x7f0502a0;
+        public static final int rudram_32=0x7f0502a1;
+        public static final int rudram_33=0x7f0502a2;
+        public static final int rudram_34=0x7f0502a3;
+        public static final int rudram_35=0x7f0502a4;
+        public static final int rudram_36=0x7f0502a5;
+        public static final int rudram_37=0x7f0502a6;
+        public static final int rudram_38=0x7f0502a7;
+        public static final int rudram_39=0x7f0502a8;
+        public static final int rudram_4=0x7f0502a9;
+        public static final int rudram_40=0x7f0502aa;
+        public static final int rudram_41=0x7f0502ab;
+        public static final int rudram_42=0x7f0502ac;
+        public static final int rudram_43=0x7f0502ad;
+        public static final int rudram_44=0x7f0502ae;
+        public static final int rudram_45=0x7f0502af;
+        public static final int rudram_46=0x7f0502b0;
+        public static final int rudram_47=0x7f0502b1;
+        public static final int rudram_48=0x7f0502b2;
+        public static final int rudram_49=0x7f0502b3;
+        public static final int rudram_5=0x7f0502b4;
+        public static final int rudram_50=0x7f0502b5;
+        public static final int rudram_51=0x7f0502b6;
+        public static final int rudram_52=0x7f0502b7;
+        public static final int rudram_53=0x7f0502b8;
+        public static final int rudram_54=0x7f0502b9;
+        public static final int rudram_55=0x7f0502ba;
+        public static final int rudram_56=0x7f0502bb;
+        public static final int rudram_57=0x7f0502bc;
+        public static final int rudram_58=0x7f0502bd;
+        public static final int rudram_59=0x7f0502be;
+        public static final int rudram_6=0x7f0502bf;
+        public static final int rudram_60=0x7f0502c0;
+        public static final int rudram_61=0x7f0502c1;
+        public static final int rudram_62=0x7f0502c2;
+        public static final int rudram_63=0x7f0502c3;
+        public static final int rudram_64=0x7f0502c4;
+        public static final int rudram_65=0x7f0502c5;
+        public static final int rudram_66=0x7f0502c6;
+        public static final int rudram_67=0x7f0502c7;
+        public static final int rudram_68=0x7f0502c8;
+        public static final int rudram_69=0x7f0502c9;
+        public static final int rudram_7=0x7f0502ca;
+        public static final int rudram_70=0x7f0502cb;
+        public static final int rudram_71=0x7f0502cc;
+        public static final int rudram_72=0x7f0502cd;
+        public static final int rudram_73=0x7f0502ce;
+        public static final int rudram_74=0x7f0502cf;
+        public static final int rudram_75=0x7f0502d0;
+        public static final int rudram_76=0x7f0502d1;
+        public static final int rudram_77=0x7f0502d2;
+        public static final int rudram_78=0x7f0502d3;
+        public static final int rudram_79=0x7f0502d4;
+        public static final int rudram_8=0x7f0502d5;
+        public static final int rudram_80=0x7f0502d6;
+        public static final int rudram_81=0x7f0502d7;
+        public static final int rudram_82=0x7f0502d8;
+        public static final int rudram_83=0x7f0502d9;
+        public static final int rudram_84=0x7f0502da;
+        public static final int rudram_85=0x7f0502db;
+        public static final int rudram_86=0x7f0502dc;
+        public static final int rudram_87=0x7f0502dd;
+        public static final int rudram_88=0x7f0502de;
+        public static final int rudram_89=0x7f0502df;
+        public static final int rudram_9=0x7f0502e0;
+        public static final int rudram_90=0x7f0502e1;
+        public static final int rudram_91=0x7f0502e2;
+        public static final int rudram_92=0x7f0502e3;
+        public static final int rudram_93=0x7f0502e4;
+        public static final int rudram_94=0x7f0502e5;
+        public static final int rudram_95=0x7f0502e6;
+        public static final int rudram_96=0x7f0502e7;
+        public static final int rudram_97=0x7f0502e8;
+        public static final int rudram_98=0x7f0502e9;
+        public static final int rudram_99=0x7f0502ea;
+        public static final int sri_sooktam_0=0x7f0502eb;
+        public static final int sri_sooktam_1=0x7f0502ec;
+        public static final int sri_sooktam_10=0x7f0502ed;
+        public static final int sri_sooktam_11=0x7f0502ee;
+        public static final int sri_sooktam_12=0x7f0502ef;
+        public static final int sri_sooktam_13=0x7f0502f0;
+        public static final int sri_sooktam_14=0x7f0502f1;
+        public static final int sri_sooktam_15=0x7f0502f2;
+        public static final int sri_sooktam_16=0x7f0502f3;
+        public static final int sri_sooktam_17=0x7f0502f4;
+        public static final int sri_sooktam_18=0x7f0502f5;
+        public static final int sri_sooktam_19=0x7f0502f6;
+        public static final int sri_sooktam_2=0x7f0502f7;
+        public static final int sri_sooktam_20=0x7f0502f8;
+        public static final int sri_sooktam_21=0x7f0502f9;
+        public static final int sri_sooktam_22=0x7f0502fa;
+        public static final int sri_sooktam_23=0x7f0502fb;
+        public static final int sri_sooktam_24=0x7f0502fc;
+        public static final int sri_sooktam_25=0x7f0502fd;
+        public static final int sri_sooktam_26=0x7f0502fe;
+        public static final int sri_sooktam_27=0x7f0502ff;
+        public static final int sri_sooktam_28=0x7f050300;
+        public static final int sri_sooktam_29=0x7f050301;
+        public static final int sri_sooktam_3=0x7f050302;
+        public static final int sri_sooktam_30=0x7f050303;
+        public static final int sri_sooktam_31=0x7f050304;
+        public static final int sri_sooktam_4=0x7f050305;
+        public static final int sri_sooktam_5=0x7f050306;
+        public static final int sri_sooktam_6=0x7f050307;
+        public static final int sri_sooktam_7=0x7f050308;
+        public static final int sri_sooktam_8=0x7f050309;
+        public static final int sri_sooktam_9=0x7f05030a;
     }
     public static final class string {
         public static final int LSN_title=0x7f0b0015;
@@ -1862,10 +2075,12 @@ containing a value of this type.
         public static final int app_name=0x7f0b000d;
         public static final int durga_suktam_title=0x7f0b0019;
         public static final int main_menu_item_suktam=0x7f0b0011;
+        public static final int main_menu_rudram_title=0x7f0b001a;
         public static final int medha_suktam_title=0x7f0b0018;
         public static final int narayana_suktam_title=0x7f0b0014;
         public static final int neela_suktam_title=0x7f0b0012;
         public static final int purusha_suktam_title=0x7f0b0013;
+        public static final int rudram__namakam_title=0x7f0b001b;
         public static final int sri_suktam_title=0x7f0b0017;
     }
     public static final class style {
@@ -3318,33 +3533,6 @@ containing a value of this type.
           @attr name android:windowAnimationStyle
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
-        /** Attributes that can be used with a RobotoTextTypeFace.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RobotoTextTypeFace_typeface devi.vidyaschool:typeface}</code></td><td></td></tr>
-           </table>
-           @see #RobotoTextTypeFace_typeface
-         */
-        public static final int[] RobotoTextTypeFace = {
-            0x7f01006e
-        };
-        /**
-          <p>This symbol is the offset where the {@link devi.vidyaschool.R.attr#typeface}
-          attribute's value can be found in the {@link #RobotoTextTypeFace} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name devi.vidyaschool:typeface
-        */
-        public static final int RobotoTextTypeFace_typeface = 0;
         /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
